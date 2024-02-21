@@ -1,10 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import {} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <h1>Flavour Burgers</h1>
-      <h2>Eat hamburgers</h2>
+   
+  <Navbar/>
     </div>
   );
 }
