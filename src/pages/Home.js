@@ -1,10 +1,12 @@
 import React from "react"
 import {Link} from "react-router-dom"
+import BannerImage from "../assets/hamburgerBackground.jpg";
+import "../styles/Home.css";
 
 function Home() {
   return (
     <div className="home">
-      <div className='headerContainer'>
+      <div className='headerContainer' style={ {backgroundImage: `url(${BannerImage})` }}>
         <h1> Flavour Burgers </h1>
         <p> Bästa Burgarna i stan </p>
         <Link to="/BestallOnline">
