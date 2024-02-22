@@ -5,9 +5,9 @@ import "../styles/Home.css";
 
 function Home() {
   return (
-    <div className="home">
-      <div className='headerContainer' style={ {backgroundImage: `url(${BannerImage})` }}>
-        <h1> Flavour Burgers </h1>
+    <div className="home"  style={ {backgroundImage: `url(${BannerImage})` }}>
+      <div className='headerContainer'> 
+      <h1> Flavour Burgers </h1>
         <p> Bästa Burgarna i stan </p>
         <Link to="/BestallOnline">
         <button> BESTÄLL HÄR </button>
