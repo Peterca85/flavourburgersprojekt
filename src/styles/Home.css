@@ -17,7 +17,7 @@ video{
 
 .content{
   position: absolute;
-  width: 100%;
+  width: 130%;
   height: 100%;
   top:0;
   display: flex;
@@ -25,7 +25,8 @@ video{
   justify-content: center;
   align-items: center;
   color: white;
-
+  z-index: 0;
+ 
 }
 
 .startbutton{
@@ -46,4 +47,12 @@ video{
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+h1{
+  font-size: 70px;
+}
+
+p{
+  font-size: 25px;
 }
