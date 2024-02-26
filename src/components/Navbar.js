@@ -21,7 +21,7 @@ function Navbar() {
       <div className='hiddenLinks'>
       <Link to="/"> Hem </Link> 
       <Link to="/meny"> Meny </Link> 
-      <Link to="/BestallOnline"> Beställ Online </Link> 
+      <Link to="/bestallOnline"> Beställ Online </Link> 
       <Link to="/omOss"> Om oss </Link> 
       <Link to="/happenings"> Happenings </Link> 
       <Link to="/Kontakt"> Kontakt </Link> 
@@ -30,7 +30,7 @@ function Navbar() {
       <div className='rightSide'>
         <Link to="/"> Hem </Link> 
         <Link to="/meny"> Meny </Link> 
-        <Link to="/BestallOnline"> Beställ Online </Link> 
+        <Link to="/bestallOnline"> Beställ Online </Link> 
         <Link to="/omOss"> Om oss </Link> 
         <Link to="/happenings"> Happenings </Link> 
         <Link to="/Kontakt"> Kontakt </Link> 

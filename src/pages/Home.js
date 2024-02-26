@@ -10,8 +10,10 @@ function Home() {
       <div className='content'> 
       <h1> Flavour Burgers </h1>
      <p>Bästa burgarna i stan !</p>
-     <br></br>
+   <br></br>
+     <Link to="/bestallOnline">
      <button className="startbutton">Beställ nu</button>
+     </Link>
       </div>
     
     </div>
