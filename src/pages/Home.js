@@ -6,11 +6,12 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className="home"> 
-    <div> className="overlay"</div> 
-    <video src={videoBg} autoPlay loop muted /> 
+ <video src={videoBg} autoPlay loop muted /> 
       <div className='content'> 
       <h1> Flavour Burgers </h1>
      <p>Bästa burgarna i stan !</p>
+     <br></br>
+     <button className="startbutton">Beställ nu</button>
       </div>
     
     </div>
