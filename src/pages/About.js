@@ -4,9 +4,12 @@ import "../styles/About.css";
 
 function About() {
   return (
-    <div className='about'
-    style={{ backgroundImage: `url(${Personal})` }}>
-      <div className='aboutTop'></div>
+    <div className='about'>
+  
+
+      <div className='aboutTop'
+            style={{ backgroundImage: `url(${Personal})` }}
+            ></div>
       <div className='aboutBottom'>
         <h1>Om oss</h1>
         <h3>presentation</h3>
