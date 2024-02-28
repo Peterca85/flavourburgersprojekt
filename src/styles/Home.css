@@ -49,10 +49,14 @@ video{
   transform: translateY(4px);
 }
 
-h1{
-  font-size: 70px;
+.startHeader{
+  font-size: 80px;
 }
 
-p{
-  font-size: 25px;
+.startText{
+  font-size: 30px;
+}
+
+.hej{
+  color: white;
 }

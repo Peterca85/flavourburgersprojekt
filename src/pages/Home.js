@@ -8,13 +8,13 @@ function Home() {
     <div className="home"> 
  <video src={videoBg} autoPlay loop muted /> 
       <div className='content'> 
-      <h1> Flavour Burgers </h1>
-     <p>Bästa burgarna i stan !</p>
+      <h1 className="startHeader"> Flavour Burgers </h1>
+     <p className="startText">Bästa burgarna i stan !</p>
    <br></br>
      <Link to="/bestallOnline">
      <button className="startbutton">Beställ nu</button>
      </Link>
-      </div>
+     </div>
     
     </div>
   );
