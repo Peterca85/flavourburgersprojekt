@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  font-family:  Goudy Bookletter 1911, sans-serif;
+  font-family:   Goudy Bookletter 1911, sans-serif;
 }
 
 .home{
@@ -30,7 +30,7 @@ video{
 }
 
 .startbutton{
-  background-color: #04AA6D; /* Green */
+  background-color: #04AA6D; 
   border: none;
   color: white;
   padding: 15px 32px;
@@ -57,6 +57,3 @@ video{
   font-size: 30px;
 }
 
-.hej{
-  color: white;
-}
