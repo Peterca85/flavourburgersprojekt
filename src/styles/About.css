@@ -10,8 +10,9 @@
     
     width: 25%;
     height: 100%;
-   
-
+    text-align: center;
+    margin: auto;
+    display: block;
     
 
   }
