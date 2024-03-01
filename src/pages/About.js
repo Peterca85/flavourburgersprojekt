@@ -1,5 +1,6 @@
 import React from 'react'
-import Personal from "../assets/FlavourBurgers.png";
+import Logo from "../assets/FlavourBurgers.png";
+import Personal from "../assets/crew.jpg"
 import "../styles/About.css";
 
 function About() {
@@ -8,7 +9,7 @@ function About() {
   
 
       <div className='logo'
-            style={{ backgroundImage: `url(${Personal})` }}
+            style={{ backgroundImage: `url(${Logo})` }}
             ></div>
       <div className='aboutBottom'>
         <h1>Om oss</h1>
@@ -31,6 +32,10 @@ function About() {
                     alternativ och specialburgare inspirerade av smaker från 
                     hela världen - vi har något för alla.</p>
                     <br></br>
+                    <div className='personal'
+            style={{ backgroundImage: `url(${Personal})` }}
+            ></div>
+           
                     <p>Hos Flavour Burgers vill vi inte bara tillfredsställa din aptit, 
                         vi vill också skapa en atmosfär där du kan koppla av och njuta 
                         av varje måltid. Vår restaurang är
