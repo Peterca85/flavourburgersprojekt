@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from "../assets/FlavourBurgers.png";
 import Personal from "../assets/crew.jpg"
+import Burgare from "../assets/handsburgare.jpg"
+import Ravara from "../assets/gronsaker.jpg"
 import "../styles/About.css";
 
 function About() {
@@ -33,10 +35,16 @@ function About() {
                     alternativ och specialburgare inspirerade av smaker från 
                     hela världen - vi har något för alla.</p>
                     <br></br>
-                    <div className='personal'
-              img src={Personal} alt="Logo" >
-            </div>
-           
+
+
+                        <div className='gallery-image'>
+                    < img src={Burgare} alt="Hamburgare" />
+                    < img src={Personal} alt="Personal" />
+                    < img src={Ravara} alt="Ingredienser" />
+              
+    </div>
+          <br></br>
+     
                     <p>Hos Flavour Burgers vill vi inte bara tillfredsställa din aptit, 
                         vi vill också skapa en atmosfär där du kan koppla av och njuta 
                         av varje måltid. Vår restaurang är
@@ -56,6 +64,7 @@ function About() {
       
       </div>
       </div>
+     
   )
 }
 

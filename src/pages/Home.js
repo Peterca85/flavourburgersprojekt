@@ -15,8 +15,12 @@ function Home() {
      <button className="startbutton">Beställ nu</button>
      </Link>
      </div>
-    
+   
     </div>
+
+    
+
+    
   );
 }
 
