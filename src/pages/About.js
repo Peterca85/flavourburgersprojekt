@@ -22,19 +22,19 @@ function About() {
               Vi är inte bara en hamburgerrestaurang, vi är en
                destination för de som älskar att uppleva nya 
                smaker och njuta av högkvalitativa råvaror i varje måltid.</p>
-      <br></br>
+  
                <p>Vi på Flavour Burgers strävar efter att erbjuda mer än bara en vanlig
                 hamburgare. Vårt koncept handlar om att skapa unika smakkombinationer 
                 som stimulerar dina smaklökar och får dig att komma tillbaka efter mer.
                  Varje burgare är skapad med omsorg och expertis för att ge dig en 
                  smakupplevelse utöver det vanliga.</p>
-         <br></br>
+      
                  <p>Vi använder endast de färskaste och högsta kvalitetsingredienserna för 
                     att säkerställa att varje burgare är en fest för dina smaklökar.
                      Från saftiga köttburgare till vegetariska 
                     alternativ och specialburgare inspirerade av smaker från 
                     hela världen - vi har något för alla.</p>
-                    <br></br>
+                   
 
 
                         <div className='gallery-image'>
