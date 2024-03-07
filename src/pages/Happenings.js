@@ -67,6 +67,18 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
                  samtidigt som de njuter av god mat och dryck i en inspirerande atmosfär.</p>
       </div>
 
+      <div className='artist'>
+        <h1>Kommande Artister</h1>
+        <p>Dj Bassline 17/5</p>
+        <p>Dj Vibe 28/5</p>
+        <p>Nova Aurora 1/6</p>
+        <p>Echo Dreamer 7/6</p>
+        <p>Blaze Rhymes 12/6</p>
+        <p>Mic Maverick 20/6</p>
+
+
+      </div>
+
     </div>
   )
 }

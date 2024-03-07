@@ -1,5 +1,5 @@
 .happenings h1{
-    font-size: 60px;
+    font-size: 50px;
     text-align: center;
     padding: 80px;
 }
@@ -55,5 +55,9 @@
     display: grid;
     place-items: center;
      color: white;
+}
+
+.artist{
+    background-color: #DCDCDC
 }
 
