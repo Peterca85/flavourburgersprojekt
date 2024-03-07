@@ -105,6 +105,7 @@ s
 }
 
 .hamburgerMonth{ 
+  background-color: #3CB371;
   img {
     width: 35%; 
     height: 500px; 
@@ -128,6 +129,7 @@ s
   text-align: center;
   color: red;
   padding: 20px;
+ 
   
 }
 
