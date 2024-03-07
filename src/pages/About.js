@@ -43,8 +43,7 @@ function About() {
                     < img src={Ravara} alt="Ingredienser" />
               
     </div>
-          <br></br>
-     
+      
                     <p>Hos Flavour Burgers vill vi inte bara tillfredsställa din aptit, 
                         vi vill också skapa en atmosfär där du kan koppla av och njuta 
                         av varje måltid. Vår restaurang är

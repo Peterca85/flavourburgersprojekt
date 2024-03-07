@@ -1,12 +1,51 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import "../styles/Happenings.css";
+import Dj from "../assets/dj.jpg";
+import Artist from "../assets/sheartist.jpg";
+import MrDj from "../assets/mrdj.jpg";
+import { ArrowBackIos } from '@mui/icons-material';
+import { ArrowForwardIos } from '@mui/icons-material';
 
-
+ const images = [ 
+  {title: "Dj", img:Dj},
+  {title: "Artist", img:Artist},
+  {title: "MrDj", img:MrDj}
+]
 
 
 function Happenings() {
+
+  const [currImg, setCurrImg] = useState(0)
+
   return (
+
+
+
+    
     <div className='happenings'>
+
+      <div className='carousel'>
+
+<div className='carouselInner'
+style={{backgroundImage: `url(${images[currImg].img})`}}
+
+
+>
+  <div className='left' onClick={() => { currImg>0 && setCurrImg (currImg-1) ;
+  }}>
+    <ArrowBackIos style={{fontSize: 40}} ></ArrowBackIos>
+  </div>
+  <div className='center'></div>
+  <div className='right' onClick={() => { currImg< images.length - 1 && setCurrImg(currImg+1) ;
+  }}>
+  <ArrowForwardIos style={{fontSize: 40}} ></ArrowForwardIos>
+  </div>
+</div>
+
+
+
+
+      </div>
 
       <div className='happeningsTop'>
 

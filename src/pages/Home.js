@@ -15,6 +15,13 @@ function Home() {
      <button className="startbutton">Beställ nu</button>
      </Link>
      </div>
+
+     <div  className="aboutUs">
+
+      <h1>Det här är om oss</h1>
+      <p > Våra burgare är inte bara mat, de är konstverk skapade med kärlek och omsorg. Varje ingrediens är noggrant utvald för att 
+        säkerställa att varje hamburgare inte bara smakar fantastiskt, utan också berikar dina smaklökar med en explosion av spännande smaker.</p>
+     </div>
    
     </div>
 
