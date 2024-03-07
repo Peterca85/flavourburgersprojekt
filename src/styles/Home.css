@@ -68,3 +68,14 @@ h5{
 }
 
 
+.aboutUs .aboutParagraph{
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.aboutUs{
+  background-color: rgb(249, 216, 209);
+  padding: 350px;
+ 
+ 
+}
