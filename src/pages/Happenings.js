@@ -66,7 +66,7 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
                <p>Våra gäster kan förvänta sig att varje besök på vår restaurang blir en resa genom olika musikaliska världar, där de får möjlighet att upptäcka nya favoritartister och låtar
                  samtidigt som de njuter av god mat och dryck i en inspirerande atmosfär.</p>
       </div>
-    
+
     </div>
   )
 }

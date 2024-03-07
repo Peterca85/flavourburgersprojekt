@@ -79,3 +79,53 @@ h5{
  
  
 }
+
+h3{
+  text-align: center;
+}
+s
+
+.hamburger{
+  background-color: red;
+}
+
+.openHours{
+  background-color: rgb(249, 216, 209);
+}
+
+.openHours{
+  text-align: center;
+  padding:25px;
+}
+
+.openHours h3{
+  font-size: 25px;
+  padding :5px;
+  
+}
+
+.hamburgerMonth{ 
+  img {
+    width: 35%; 
+    height: 500px; 
+    margin: 0; 
+    padding: 7px;
+    border-radius: 8%;
+  }
+}
+
+.hamburgerMonth p{
+  font-size: 25px;
+  text-align: center;
+  color: red;
+
+  
+}
+
+.hamburgerMonth h1{
+  
+  text-align: center;
+  color: red;
+  
+}
+

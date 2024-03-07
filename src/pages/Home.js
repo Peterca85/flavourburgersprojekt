@@ -1,6 +1,7 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import videoBg from "../assets/bgvideo.mp4";
+import BurgerMonth from "../assets/burgermonth.jpg"
 import "../styles/Home.css";
 
 function Home() {
@@ -21,7 +22,28 @@ function Home() {
 <p className="aboutParagraph" > Våra burgare är inte bara mat, de är konstverk skapade med kärlek och omsorg. Varje ingrediens är noggrant utvald för att 
         säkerställa att varje hamburgare inte bara smakar fantastiskt, utan också berikar dina smaklökar med en explosion av spännande smaker.</p>
      </div>
+
+
+
+     <div className='hamburgerMonth'>
+     <h1>Månadens Hamburgare</h1>
+    < img src={BurgerMonth} alt="Hamburgare" />
+    <p>det här är månaden burgare. Den är godast i stan !!!</p>
+                  
+               </div>
+
    
+
+     <div className="openHours">
+   <h1>Vi har öppet </h1>
+   <h3>Måndag 12-21</h3>
+   <h3>Tisdag 12-21</h3>
+   <h3>Onsdag 12-21</h3>
+   <h3>Torsdag 12-21</h3>
+   <h3>Fredag 12-01</h3>
+   <h3>Lördag 12-01</h3>
+   <h3>Söndag 12-21</h3>
+   </div>
     </div>
 
     

@@ -10,7 +10,7 @@ function Footer() {
           <InstagramIcon />
           <Facebook />
         </div>
-    <p> © 2024 FlavourBurgers.se</p>
+       <p> © 2024 FlavourBurgers.se</p>
     </div>
   )
 }
