@@ -5,11 +5,13 @@
 }
 
 .happenings p{
+
+    
     font-size: 25px;
     line-height: 35px;
-    padding: 20px;
     text-align: center;
-    
+    width: 1800px;
+    padding: 15px;
     
 }
 
