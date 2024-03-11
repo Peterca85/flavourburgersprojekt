@@ -6,6 +6,8 @@ import MrDj from "../assets/mrdj.jpg";
 import Artisto from "../assets/artistOne.jpg";
 import Artisten from "../assets/artistTwo.jpg";
 import Artisterna from "../assets/artistThree.jpg";
+import Artisternas from "../assets/artistFour.jpg";
+import Artistemax from "../assets/artistFive.jpg";
 import { ArrowBackIos } from '@mui/icons-material';
 import { ArrowForwardIos } from '@mui/icons-material';
 
@@ -84,6 +86,15 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
     < img src={Artisterna} alt="Artist" /> 
         <figcaption>Disco Dreamer</figcaption>
     </figure>
+    <figure>
+    < img src={Artisternas} alt="Artist" /> 
+        <figcaption>Mic Maverick</figcaption>
+    </figure>
+    <figure>
+    < img src={Artistemax} alt="Artist" /> 
+        <figcaption>Blaze Rhythm</figcaption>
+    </figure>
+    
 
 
       </div>
