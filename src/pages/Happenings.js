@@ -3,6 +3,9 @@ import "../styles/Happenings.css";
 import Dj from "../assets/dj.jpg";
 import Artist from "../assets/sheartist.jpg";
 import MrDj from "../assets/mrdj.jpg";
+import Artisto from "../assets/artistOne.jpg";
+import Artisten from "../assets/artistTwo.jpg";
+import Artisterna from "../assets/artistThree.jpg";
 import { ArrowBackIos } from '@mui/icons-material';
 import { ArrowForwardIos } from '@mui/icons-material';
 
@@ -69,12 +72,18 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
 
       <div className='artist'>
         <h1>Kommande Artister</h1>
-        <p>Dj Bassline 17/5</p>
-        <p>Dj Vibe 28/5</p>
-        <p>Nova Aurora 1/6</p>
-        <p>Echo Dreamer 7/6</p>
-        <p>Blaze Rhymes 12/6</p>
-        <p>Mic Maverick 20/6</p>
+        <figure>
+        < img src={Artisto} alt="Artist" /> 
+        <figcaption>Dixie Rae</figcaption>
+    </figure>
+    <figure>
+    < img src={Artisten} alt="Artist" /> 
+        <figcaption>Seraphina</figcaption>
+    </figure>
+    <figure>
+    < img src={Artisterna} alt="Artist" /> 
+        <figcaption>Disco Dreamer</figcaption>
+    </figure>
 
 
       </div>

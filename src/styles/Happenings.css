@@ -60,6 +60,25 @@
 }
 
 .artist{
-    background-color: #DCDCDC
+    background-color: #dcdcdc;
+}
+   .artist img{
+
+        width: 350px;
+        height: 450px;
+        margin: 0; 
+        padding: 15px;
+        border-radius: 8%;
+     
+    }
+  
+    
+ figure {
+    display:inline-block;
 }
 
+ figcaption {
+    text-align: center;
+    font-size: 30px;
+   
+}
