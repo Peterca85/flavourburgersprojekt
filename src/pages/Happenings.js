@@ -3,11 +3,11 @@ import "../styles/Happenings.css";
 import Dj from "../assets/dj.jpg";
 import Artist from "../assets/sheartist.jpg";
 import MrDj from "../assets/mrdj.jpg";
-import Artisto from "../assets/artistOne.jpg";
-import Artisten from "../assets/artistTwo.jpg";
-import Artisterna from "../assets/artistThree.jpg";
-import Artisternas from "../assets/artistFour.jpg";
-import Artistemax from "../assets/artistFive.jpg";
+import ArtistOne from "../assets/artistOne.jpg";
+import ArtistTwo from "../assets/artistTwo.jpg";
+import ArtistThree from "../assets/artistThree.jpg";
+import ArtistFour from "../assets/artistFour.jpg";
+import ArtistFive from "../assets/artistFive.jpg";
 import { ArrowBackIos } from '@mui/icons-material';
 import { ArrowForwardIos } from '@mui/icons-material';
 
@@ -75,23 +75,23 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
       <div className='artist'>
         <h1>Kommande Artister</h1>
         <figure>
-        < img src={Artisto} alt="Artist" /> 
+        < img src={ArtistOne} alt="Artist" /> 
         <figcaption>Melodica</figcaption>
     </figure>
     <figure>
-    < img src={Artisten} alt="Artist" /> 
+    < img src={ArtistTwo} alt="Artist" /> 
         <figcaption>Seraphina</figcaption>
     </figure>
     <figure>
-    < img src={Artisterna} alt="Artist" /> 
+    < img src={ArtistThree} alt="Artist" /> 
         <figcaption>Disco Dreamer</figcaption>
     </figure>
     <figure>
-    < img src={Artisternas} alt="Artist" /> 
+    < img src={ArtistFour} alt="Artist" /> 
         <figcaption>Mic Maverick</figcaption>
     </figure>
     <figure>
-    < img src={Artistemax} alt="Artist" /> 
+    < img src={ArtistFive} alt="Artist" /> 
         <figcaption>Blaze Rhythm</figcaption>
     </figure>
     
