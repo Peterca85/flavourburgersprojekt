@@ -19,7 +19,7 @@ function Home() {
 
       <div className="aboutUs">
         <p className="aboutParagraph">
-          {" "}
+          
           Våra burgare är inte bara mat, de är konstverk skapade med kärlek och
           omsorg. Varje ingrediens är noggrant utvald för att säkerställa att
           varje hamburgare inte bara smakar fantastiskt, utan också berikar dina
@@ -31,7 +31,7 @@ function Home() {
         <h1>Månadens Hamburgare</h1>
         <img src={BurgerMonth} alt="Hamburgare" />
         <p>
-          {" "}
+          
           Månadens Hamburgare: Jalapeño Fiesta! En smakresa till Mexiko. Vid
           hjärtat av denna sensation hittar du en generöst kryddad burgare, vars
           smak är förhöjd av hettan från jalapeños och den karakteristiska
@@ -42,8 +42,11 @@ function Home() {
           oemotståndlig. Denna hamburgare är en hyllning till Mexikos rika
           kulinariska arv och en fest för dem som älskar hetta och smakrikedom.
           Så låt oss ta dig med på en smakresa till Mexiko med varje tugga av
-          Jalapeño Fiesta Burger.{" "}
+          Jalapeño Fiesta Burger.
         </p>
+        <Link to="/bestallOnline">
+          <button className="hamburgerButton">Beställ nu</button>
+        </Link>
       </div>
 
       <div className="openHours">
