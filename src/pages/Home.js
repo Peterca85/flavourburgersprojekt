@@ -50,14 +50,14 @@ function Home() {
       </div>
 
       <div className="openHours">
-        <h1>Vi har öppet </h1>
-        <h3>Måndag 12-21</h3>
-        <h3>Tisdag 12-21</h3>
-        <h3>Onsdag 12-21</h3>
-        <h3>Torsdag 12-21</h3>
-        <h3>Fredag 12-01</h3>
-        <h3>Lördag 12-01</h3>
-        <h3>Söndag 12-21</h3>
+        <h1>Öppettider </h1>
+        <h3>Måndag 12.00-21.00</h3>
+        <h3>Tisdag 12.00-21.00</h3>
+        <h3>Onsdag 12.00-21.00</h3>
+        <h3>Torsdag 12.00-21.00</h3>
+        <h3>Fredag 12.00-01.00</h3>
+        <h3>Lördag 12.00-01.00</h3>
+        <h3>Söndag 12.00-21.00</h3>
       </div>
     </div>
   );

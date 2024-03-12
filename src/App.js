@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./pages/About";
 import Happenings from "./pages/Happenings";
 import kontakt from "./pages/Contact";
+import Meny from "./pages/Menu";
+import Order from "./pages/OrderOnline"
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
 <Route path="/omOss" exact Component={About}/>
 <Route path="/happenings" exact Component={Happenings}/>
 <Route path="/Kontakt" exact Component={kontakt}/>
+<Route path="/meny" exact Component={Meny}/>
+<Route path="/bestallOnline" exact Component={Order}/>
   </Routes>
   <Footer/>
   </Router>

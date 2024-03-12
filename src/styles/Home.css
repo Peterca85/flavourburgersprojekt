@@ -85,7 +85,7 @@ h5{
 h3{
   text-align: center;
 }
-s
+
 
 .hamburger{
   background-color: red;
@@ -93,16 +93,20 @@ s
 
 .openHours{
   background-color: rgb(249, 216, 209);
-}
-
-.openHours{
   text-align: center;
   padding:25px;
+}
+
+.openHours h1{
+ font-size: 40px;
+ padding: 20px;
 }
 
 .openHours h3{
   font-size: 25px;
   padding :5px;
+  line-height: 40px;
+  text-align: center;
   
 }
 
