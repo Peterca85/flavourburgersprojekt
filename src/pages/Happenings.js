@@ -76,7 +76,7 @@ style={{backgroundImage: `url(${images[currImg].img})`}}
         <h1>Kommande Artister</h1>
         <figure>
         < img src={Artisto} alt="Artist" /> 
-        <figcaption>Dixie Rae</figcaption>
+        <figcaption>Melodica</figcaption>
     </figure>
     <figure>
     < img src={Artisten} alt="Artist" /> 
