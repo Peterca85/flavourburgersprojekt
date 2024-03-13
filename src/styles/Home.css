@@ -93,13 +93,13 @@ h3{
 
 .openHours{
   background-color: rgb(249, 216, 209);
-  text-align: center;
   padding:25px;
 }
 
 .openHours h1{
  font-size: 40px;
  padding: 20px;
+ text-align: center;
 }
 
 .openHours h3{
@@ -111,7 +111,7 @@ h3{
 }
 
 .hamburgerMonth{ 
-  background-color: black;
+  background-color: #121619;
   height: 70vh;
   width: 100%;
 img {

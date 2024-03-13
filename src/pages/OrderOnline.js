@@ -3,7 +3,7 @@ import "../styles/Order.css";
 
 function OrderOnline() {
   return (
-    <div>
+    <div className='order'>
       <h1>Här kan du beställa online</h1>
     </div>
   )
