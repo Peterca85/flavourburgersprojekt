@@ -54,11 +54,13 @@ function Home() {
 
  <div className="map">
   <div className="home-info">
-  <Room/>
+
+  <Room fontSize="large"/>
  <h1>Hitta till oss</h1>
-<House/>
+<House fontSize="large" />
  <h3>Storgatan 12</h3>
  <h3>97338 Luleå</h3>
+
  </div>
 <div className="map-responsive">
 
