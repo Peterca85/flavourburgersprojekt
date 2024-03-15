@@ -45,7 +45,7 @@ box-sizing: border-box;
 
 input, textarea {
     width:100%;
-    padding: 12px;
+    padding: 18px;
     border-radius: 8px;
     border: none;
     background-color: bisque;
