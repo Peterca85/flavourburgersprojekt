@@ -91,24 +91,7 @@ h3{
   background-color: red;
 }
 
-.openHours{
-  background-color: rgb(249, 216, 209);
-  padding:25px;
-}
 
-.openHours h1{
- font-size: 40px;
- padding: 20px;
- text-align: center;
-}
-
-.openHours h3{
-  font-size: 25px;
-  padding :5px;
-  line-height: 40px;
-  text-align: center;
-  
-}
 
 .hamburgerMonth{ 
   background-color: #121619;
@@ -171,8 +154,6 @@ padding-bottom:30%;
 position: relative;
 height: 0;
 
-
-
 }
 
 .map-responsive iframe {
@@ -183,4 +164,29 @@ height: 0;
   width: 100%;
   position: absolute;
 
+}
+
+.map{
+  background-color: rgb(249, 216, 209);
+}
+
+
+
+
+
+.home-info{
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.home-info h3{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.home-info h1{
+font-size: 40px;
+  margin-bottom: 40px;
+  color: black;
 }

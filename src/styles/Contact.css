@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 .contact{
     min-height: 100vh;
-    background-color: azure;
+    background-color: rgb(249, 216, 209);
     padding: 50px;
     text-align: center;
 }

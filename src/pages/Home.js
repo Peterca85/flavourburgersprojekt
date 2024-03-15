@@ -2,7 +2,10 @@ import React from "react"
 import {Link} from "react-router-dom"
 import videoBg from "../assets/bgvideo.mp4";
 import BurgerMonth from "../assets/burgermonth.jpg"
+import Room from "@mui/icons-material/Room";
+import House from "@mui/icons-material/Home";
 import "../styles/Home.css";
+
 
 function Home() {
   return (
@@ -49,22 +52,20 @@ function Home() {
         </Link>
       </div>
 
-      <div className="openHours">
-        <h1>Öppettider </h1>
-        <h3>Måndag 12.00-21.00</h3>
-        <h3>Tisdag 12.00-21.00</h3>
-        <h3>Onsdag 12.00-21.00</h3>
-        <h3>Torsdag 12.00-21.00</h3>
-        <h3>Fredag 12.00-01.00</h3>
-        <h3>Lördag 12.00-01.00</h3>
-        <h3>Söndag 12.00-21.00</h3>
-
-        <h1>Hitta till oss</h1>
+ <div className="map">
+  <div className="home-info">
+  <Room/>
+ <h1>Hitta till oss</h1>
+<House/>
+ <h3>Storgatan 12</h3>
+ <h3>97338 Luleå</h3>
+ </div>
 <div className="map-responsive">
 
 
+
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1649.2858409379212!2d22.140032677807977!3d65.5830595957321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f6559a460dd51%3A0x9ef6d61a1c985b3!2sStorgatan%2012%2C%20972%2038%20Lule%C3%A5!5e0!3m2!1ssv!2sse!4v1710495957599!5m2!1ssv!2sse" 
-       
+        width="1200" 
         height="450" 
         allowFullscreen
         loading="lazy" 
@@ -74,9 +75,9 @@ function Home() {
         </iframe>
 
         </div>
+        </div>
 
-
-      </div>
+     
     </div>
   );
 }
