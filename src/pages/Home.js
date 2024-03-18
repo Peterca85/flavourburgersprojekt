@@ -79,13 +79,16 @@ function Home() {
             </div>
 <h3>Storgatan 12</h3>
   <h4>Öppettider</h4>
-  <p>Mån: 12-21</p>
-  <p>Tis: 12-21</p>
-  <p>Ons: 12-21</p>
-  <p>Tors:12-21</p>
-  <p>Fre: 12-01</p>
-  <p>Lör: 12-01</p>
-  <p>Sön: 12-21</p>
+
+  <ul>
+  <li>Mån: 12-21</li>
+  <li>Tis: 12-21</li>
+  <li>Ons: 12-21</li>
+  <li>Tors:12-21</li>
+  <li>Fre: 12-01</li>
+  <li>Lör: 12-01</li>
+  <li>Sön: 12-21</li>
+  </ul>
 
         </div>
         </div>

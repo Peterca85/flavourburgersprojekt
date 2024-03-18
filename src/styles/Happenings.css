@@ -61,15 +61,16 @@
 
 .artist{
     background-color: #dcdcdc;
+    text-align: center;
 }
    .artist img{
 
-        width: 350px;
-        height: 450px;
-        margin: 0; 
+        width: 250px;
+        height: 350px;
+        margin: 0 ; 
         padding: 10px;
         border-radius: 8%;
-     
+       
     }
   
     

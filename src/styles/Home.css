@@ -194,11 +194,11 @@ padding-bottom: 20px;
 
 }
 
-.opening-hours p{
+.opening-hours ul{
   font-size: 16px;
   text-align: center;
-  font-weight: 700;
- 
+  font-weight: 700;  
+  
 }
 
 .opening-hours h4{
