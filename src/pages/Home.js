@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 import videoBg from "../assets/bgvideo.mp4";
 import BurgerMonth from "../assets/burgermonth.jpg"
 import Room from "@mui/icons-material/Room";
-import House from "@mui/icons-material/Home";
+import Burger from "../assets/transparent.png"
 import "../styles/Home.css";
 
 
@@ -57,9 +57,7 @@ function Home() {
 
   <Room fontSize="large"/>
  <h1>Hitta till oss</h1>
-<House fontSize="large" />
- <h3>Storgatan 12</h3>
- <h3>97238 Luleå</h3>
+
 
  </div>
 <div className="map-responsive">
@@ -67,14 +65,27 @@ function Home() {
 
 
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1649.2858409379212!2d22.140032677807977!3d65.5830595957321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f6559a460dd51%3A0x9ef6d61a1c985b3!2sStorgatan%2012%2C%20972%2038%20Lule%C3%A5!5e0!3m2!1ssv!2sse!4v1710495957599!5m2!1ssv!2sse" 
-        width="1200" 
-        height="450" 
         allowFullscreen
         loading="lazy" 
         referrerPolicy="no-referrer-when-downgrade"
         title="Responsive Google Map">
 
         </iframe>
+        </div>
+<div className="opening-hours">
+<div className='logotype'>
+          < img src={Burger} alt="Logo" />
+            
+            </div>
+<h3>Storgatan 12</h3>
+  <h4>Öppettider</h4>
+  <p>Mån: 12-21</p>
+  <p>Tis: 12-21</p>
+  <p>Ons: 12-21</p>
+  <p>Tors:12-21</p>
+  <p>Fre: 12-01</p>
+  <p>Lör: 12-01</p>
+  <p>Sön: 12-21</p>
 
         </div>
         </div>
