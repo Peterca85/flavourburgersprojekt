@@ -59,7 +59,7 @@ function Home() {
  <h1>Hitta till oss</h1>
 <House fontSize="large" />
  <h3>Storgatan 12</h3>
- <h3>97338 Luleå</h3>
+ <h3>97238 Luleå</h3>
 
  </div>
 <div className="map-responsive">
