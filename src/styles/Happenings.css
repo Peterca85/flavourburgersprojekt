@@ -60,7 +60,7 @@
 }
 
 .artist{
-    background-color: #dcdcdc;
+    background-color: rgb(249, 216, 209);
     text-align: center;
 }
    .artist img{
@@ -68,8 +68,8 @@
         width: 250px;
         height: 350px;
         margin: 0 ; 
-        padding: 10px;
-        border-radius: 8%;
+        padding: 30px;
+        border-radius: 12%;
        
     }
   
@@ -80,6 +80,7 @@
 
  figcaption {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
    
 }
