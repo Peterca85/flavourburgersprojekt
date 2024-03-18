@@ -41,11 +41,11 @@ function Contact() {
         </div>
         <div className='contact-info'>
           <h3>Kontakt information</h3>
-          <Phone />
+          <Phone fontSize="large" />
           <p>0920 222222</p>
-          <Mail />
+          <Mail fontSize="large"  />
           <p>Flavourburgers@gmail.com</p>
-          <Home />
+          <Home fontSize="large"  />
           <p>Storgatan 12 Luleå</p>
         </div>
   </div>
