@@ -23,7 +23,7 @@
   
   ul {
     list-style-type: none;
-    padding: 0;
+
   }
   
   li {
@@ -31,8 +31,5 @@
     cursor: pointer;
   }
   
-  li:hover {
-    color: #007bff;
-    text-decoration: underline;
-  }
+
   

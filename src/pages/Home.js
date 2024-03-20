@@ -81,13 +81,13 @@ function Home() {
   <h4>Öppettider</h4>
 
   <ul>
-  <li>Mån: 12-21</li>
-  <li>Tis: 12-21</li>
-  <li>Ons: 12-21</li>
-  <li>Tors:12-21</li>
-  <li>Fre: 12-01</li>
-  <li>Lör: 12-01</li>
-  <li>Sön: 12-21</li>
+  <li className="open">Mån: 12-21</li>
+  <li  className="open">Tis: 12-21</li>
+  <li  className="open">Ons: 12-21</li>
+  <li  className="open">Tors:12-21</li>
+  <li  className="open">Fre: 12-01</li>
+  <li  className="open">Lör: 12-01</li>
+  <li  className="open">Sön: 12-21</li>
   </ul>
 
         </div>
