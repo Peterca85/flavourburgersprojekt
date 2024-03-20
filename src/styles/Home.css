@@ -145,21 +145,26 @@ text-align: center;
 
 
 .map-responsive{
+
 overflow: hidden;
 padding-bottom:30%;
 position: relative;
 height: 0;
+width: 80%;
+margin: auto;
+border-radius: 30px;
+
 
 }
 
 .map-responsive iframe {
   left:0;
   top:0;
-  border: 0;
+  border: none;
   height: 100%;
   width: 100%;
   position: absolute;
- 
+
 
 }
 
