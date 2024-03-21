@@ -33,7 +33,7 @@ video{
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 2rem;
   border-radius: 20px;
 }
 
@@ -46,36 +46,24 @@ video{
 }
 
 .startHeader{
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 .startText{
-  font-size: 30px;
+  font-size: 2.5rem;
 }
 
-h5{
-  color: white;
-  font-size: 50px;
-}
-
-
-.aboutHeader{
-  font-size: 100px;
-}
 
 
 .aboutUs .aboutParagraph{
-  line-height: 40px;
-  font-size: 40px;
-  height: 10vh;
-  line-height: 50px;
+
+  font-size: 2.6rem;
+  height: 12vh;
 }
 
 .aboutUs{
   background-color: rgb(249, 216, 209);
-  padding: 200px;
-
- 
+  padding: 16vh;
 }
 
 h3{
@@ -95,26 +83,26 @@ h3{
   width: 100%;
 img {
     width: 30%; 
-    height: 450px; 
+    height: auto; 
     margin: 0; 
-    padding: 60px;
+    padding: 2em;
   
  }
 }
 
 .hamburgerMonth p{
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-left: 65vh;
   color: white;
   position: relative; 
   top: -400px;
-  line-height: 35px;
+  line-height: 2.2rem;
 }
 
 .hamburgerMonth h1{
 text-align: center;
-  font-size: 40px;
- padding: 30px;
+  font-size: 2.6rem;
+ padding: 1em;
   color:white;
 
 }
@@ -127,7 +115,7 @@ text-align: center;
   text-align: right;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 2rem;
   border-radius: 20px;
   margin-left: 50%;
   position: relative;
@@ -178,14 +166,10 @@ border-radius: 30px;
 
 .home-info{
   text-align: center;
-  padding: 20px;
+  padding: 1em;
   
 }
 
-.home-info h3{
-  font-size: 26px;
-  margin-bottom: 20px;
-}
 
 .home-info h1{
 font-size: 40px;
@@ -194,8 +178,8 @@ font-size: 40px;
 }
 
 .opening-hours{
-  line-height: 30px;
-padding-bottom: 20px;
+  line-height: 1.8em;
+padding-bottom: 1em;
 
 
 }
@@ -210,19 +194,20 @@ padding-bottom: 20px;
 
 .opening-hours h4{
   text-align: center;
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.5rem;
 }
 
 .opening-hours h3{
   text-align: center;
-  font-size: 30px;
-  padding-bottom: 10px;
+  font-size: 1.8rem;
+  padding-bottom: 1em;
 }
 
 .open{
 
-font-size: 20px;
+font-size: 1.2rem;
 font-weight: 600;
 }
 
