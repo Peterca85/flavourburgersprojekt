@@ -1,6 +1,14 @@
-.heading-secondary{
-    text-align: center;
-    padding-bottom: 30px;
-    color: red;
- 
+.container-burgare{
+    max-width: 1310px;
+    margin:0 auto;
+    padding: 0 50px;
+}
+
+   
+
+
+.grid-container{
+ max-width: 1310px;
+    margin:0 auto;
+    padding: 0 50px;
 }

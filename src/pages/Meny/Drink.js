@@ -109,9 +109,9 @@ const menuDataRight= [
 function Drink() {
   return (
     <div className='section'>
-        <div className='container beverages'>
+        <div className='container-drinks'>
 <h1 className='heading-secondary'>
-Alkoholfria Alternativ
+Dryck
 
 </h1>
 
