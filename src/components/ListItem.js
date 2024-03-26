@@ -12,7 +12,7 @@ function ListItem({title, description,price}) {
             
             <div> 
                 <h3>{title} </h3>
-                {description && <p>{description} </p> }
+                {description && <h4>{description} </h4> }
             </div>
 
 <h3> {price} kr </h3>
