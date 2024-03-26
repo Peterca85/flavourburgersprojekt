@@ -37,7 +37,7 @@ function Home() {
           
           Månadens Hamburgare: Jalapeño Fiesta! En smakresa till Mexiko. Vid
           hjärtat av denna sensation hittar du en generöst kryddad burgare, vars
-          smak är förhöjd av hettan från jalapeños och den karakteristiska
+          smak är förhöjd av hettan från jalapeños och den karakteristiskad
           smaken av chipotle. Toppad med en krämig och kryddig majonnäs, vars
           ingredienser kompletterar perfekt med den rika köttsmaken. En krispig
           sallad och mogen avokado lägger till en fräsch och balanserad
@@ -77,9 +77,10 @@ function Home() {
           < img src={Burger} alt="Logo" />
             
             </div>
+            <div className="open-time"> 
 <h3>Storgatan 12</h3>
-  <h4>Öppettider</h4>
-
+  <h4 >Öppettider</h4>
+  </div>
   <ul>
   <li className="open">Mån: 12-21</li>
   <li  className="open">Tis: 12-21</li>

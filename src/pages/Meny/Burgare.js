@@ -57,7 +57,7 @@ const menuDataRight = [
     },
 
    {
-        title: "Jalapeno fiesta",
+        title: "Jalapeño fiesta",
         description: "kryddig",
         price: "130",
 
