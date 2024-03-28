@@ -7,7 +7,7 @@ const menuDataLeft= [
     {
 
   
-        title: "Fries",
+        title: "Classic Fries",
         description: "Klassiska Pommes",
         price: "25",
 

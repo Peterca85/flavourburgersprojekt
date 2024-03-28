@@ -28,7 +28,7 @@ const menuDataLeft= [
     {
 
     
-        title: "Sprite",
+        title: "Trocadero",
         description: "Törstsläckande",
         price: "20",
 
@@ -41,7 +41,7 @@ const menuDataMiddle= [
     {
 
   
-        title: "Trocadero",
+        title: "Sprite",
         description: "Norrländsk",
         price: "25",
 
