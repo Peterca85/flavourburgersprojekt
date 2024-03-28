@@ -1,112 +1,74 @@
-.navbar {
-  width: 100%;
-  height: 140px;
-  background-color: #121619;
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  z-index: 1;
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 140px;
+	padding: 0 2rem;
+	background-color: black;
+	color:red
 }
 
-.navbar .leftSide {
-  flex: 50%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding-left: 150px;
+nav a {
+	margin: 0 1rem;
+	color: white;
+	text-decoration: none;
+  font-size: 20px;
 }
 
-.navbar .leftSide img {
-  width: 120px;
+nav a:hover {
+	color: orange;
 }
 
-.navbar .rightSide {
-  flex: 50%;
-  height: 120%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+  color: whited;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
 }
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  margin: 20px;
+header div,
+nav {
+	display: flex;
+	align-items: center;
 }
 
-.navbar .rightSide button {
-  background-color: transparent;
-  border: none;
-  color: white;
-  cursor: pointer;
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: black;
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
 }
-
-.navbar .rightSide svg {
-  font-size: 40px;
-}
-
-.navbar #open {
-  padding-left: 0px;
-}
-.navbar #open img {
-  display: none;
-}
-
-.navbar #close img {
-  display: inherit;
-}
-
-.navbar #open .hiddenLinks {
-  display: inherit;
-  margin-left: 30px;
-}
-
-.navbar #close .hiddenLinks {
-  display: none;
-}
-
-.navbar #open a {
-  width: 70px;
-  margin: 5px;
-}
-
-.navbar :hover{
-  color: orange;
-  transition: 0.2s ease;
-  
-}
-
-@media only screen and (max-width: 900px) {
-  .navbar .rightSide a {
-    width: 70px;
-  }
-  .navbar .leftSide {
-    padding-left: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .navbar .rightSide a {
-    display: none;
-  }
-
-  .navbar .rightSide {
-    justify-content: flex-end;
-    padding-right: 50px;
-  }
-
-  .navbar .rightSide button {
-    display: inherit;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .navbar .rightSide button {
-    display: none;
-  }
-
-  .hiddenLinks {
-    display: none;
-  }
-}
-

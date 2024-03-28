@@ -1,3 +1,4 @@
+import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -12,6 +13,7 @@ import Order from "./pages/OrderOnline"
 function App() {
   return (
     <div className="App">
+      <React.Fragment>
   <Router>
   <Navbar />
   <Routes>
@@ -24,6 +26,7 @@ function App() {
   </Routes>
   <Footer/>
   </Router>
+  </React.Fragment>
     </div>
   );
 }

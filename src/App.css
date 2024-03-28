@@ -6,6 +6,7 @@
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .heading-secondary{
@@ -16,14 +17,21 @@
 }
 
 
+
+nav a{
+  margin: 0 2rem;
+  color: white;
+  text-decoration: none;
+
+}
+
+
 ul{
   list-style-type: none;
 
 }
 
-a{
-  text-decoration:none ;
-}
+
 
 .container{
   max-width: 1310px;
@@ -42,3 +50,4 @@ a{
 h3{
   font-size: 30px;
 }
+
