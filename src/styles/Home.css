@@ -1,32 +1,29 @@
-
-
-.home{
-width: 100%;
-height: 100%;
+.home {
+  width: 100%;
+  height: 100%;
 }
 
-video{
+video {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.content{
+.content {
   position: absolute;
   width: 130%;
   height: 100%;
-  top:0;
+  top: 140px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: white;
   z-index: 0;
- 
 }
 
 .startbutton {
-  background-color: #04AA6D; 
+  background-color: #04aa6d;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -37,7 +34,9 @@ video{
   border-radius: 20px;
 }
 
-.startbutton:hover {background-color: #3e8e41}
+.startbutton:hover {
+  background-color: #3e8e41;
+}
 
 .startbutton:active {
   background-color: #3e8e41;
@@ -45,70 +44,62 @@ video{
   transform: translateY(4px);
 }
 
-.startHeader{
+.startHeader {
   font-size: 5rem;
 }
 
-.startText{
+.startText {
   font-size: 2.5rem;
 }
 
-
-
-.aboutUs .aboutParagraph{
-
+.aboutUs .aboutParagraph {
   font-size: 2.6rem;
-  height: 12vh;
+  height: 30%;
 }
 
-.aboutUs{
+.aboutUs {
   background-color: rgb(249, 216, 209);
   padding: 16vh;
 }
 
-h3{
+h3 {
   text-align: center;
 }
 
-
-.hamburger{
+.hamburger {
   background-color: red;
 }
 
-
-
-.hamburgerMonth{ 
+.hamburgerMonth {
   background-color: #121619;
   height: 70vh;
   width: 100%;
-img {
-    width: 30%; 
-    height: auto; 
-    margin: 0; 
+  img {
+    width: 30%;
+    height: auto;
+    margin: 0;
     padding: 2em;
-  
- }
+  }
 }
 
-.hamburgerMonth p{
+.hamburgerMonth p {
   font-size: 1.5rem;
   margin-left: 65vh;
   color: white;
-  position: relative; 
+  position: relative;
   top: -400px;
   line-height: 2.2rem;
 }
 
-.hamburgerMonth h1{
-text-align: center;
+.hamburgerMonth h1 {
+  text-align: center;
   font-size: 2.6rem;
- padding: 1em;
-  color:white;
-
+  padding: 1em;
+  color: white;
 }
 
-.hamburgerButton{
-  background-color: #04AA6D; 
+.hamburgerButton {
+  background-color: #04aa6d;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -122,8 +113,9 @@ text-align: center;
   top: -30vh;
 }
 
-.hamburgerButton:hover {background-color: #3e8e41}
-
+.hamburgerButton:hover {
+  background-color: #3e8e41;
+}
 
 .hamburgerButton:active {
   background-color: #3e8e41;
@@ -131,105 +123,85 @@ text-align: center;
   transform: translateY(4px);
 }
 
-
-.map-responsive{
-
-overflow: hidden;
-padding-bottom:30%;
-position: relative;
-height: 0;
-width: 80%;
-margin: auto;
-border-radius: 30px;
-
-
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 30%;
+  position: relative;
+  height: 0;
+  width: 80%;
+  margin: auto;
+  border-radius: 30px;
 }
 
 .map-responsive iframe {
-  left:0;
-  top:0;
+  left: 0;
+  top: 0;
   border: none;
   height: 100%;
   width: 100%;
   position: absolute;
-
-
 }
 
-.map{
+.map {
   background-color: rgb(249, 216, 209);
 }
 
-
-
-
-
-.home-info{
+.home-info {
   text-align: center;
   padding: 1em;
-  
 }
 
-
-.home-info h1{
-font-size: 40px;
+.home-info h1 {
+  font-size: 40px;
   margin-bottom: 20px;
   color: black;
 }
 
-.opening-hours{
+.opening-hours {
   line-height: 1.8em;
-padding-bottom: 1em;
-
-
+  padding-bottom: 1em;
 }
 
-.opening-hours ul{
+.opening-hours ul {
   font-size: 16px;
   text-align: center;
-  font-weight: 700;  
-  
-
+  font-weight: 700;
 }
 
-.opening-hours h4{
+.opening-hours h4 {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 600;
   padding: 0.5rem;
 }
 
-.opening-hours h3{
+.opening-hours h3 {
   text-align: center;
   font-size: 1.8rem;
   padding-bottom: 1em;
 }
 
-.open{
-
-font-size: 1.2rem;
-font-weight: 600;
+.open {
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-
-.logotype{
-
+.logotype {
   img {
-    
-  width: auto;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 250px;
-  width: 250px;
-}
-}
-
-.open-time h3{
-  color:black
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 250px;
+  }
 }
 
-.open-time h4{
+.open-time h3 {
+  color: black;
+}
+
+.open-time h4 {
   color: black;
 }
