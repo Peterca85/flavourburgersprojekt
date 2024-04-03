@@ -25,7 +25,7 @@ header .nav-btn {
 	background: transparent;
 	border: none;
 	outline: none;
-  color: whited;
+  	color: whited;
 	visibility: hidden;
 	opacity: 0;
 	font-size: 1.8rem;
@@ -60,6 +60,7 @@ nav {
 
 	header .responsive_nav {
 		transform: translateY(100vh);
+	
 	}
 
 	nav .nav-close-btn {

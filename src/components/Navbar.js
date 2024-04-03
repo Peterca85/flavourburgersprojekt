@@ -15,7 +15,9 @@ function Navbar() {
 
   return (
     <header>
+      <Link to="/"> 
       <img src={Logo} width={100} alt="logotype" />
+      </Link>
       <nav ref={navRef}>
         <Link to="/"> Hem </Link>
         <Link to="/meny"> Meny </Link>
