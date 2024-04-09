@@ -18,7 +18,7 @@ function ListItem({title, description,price, itemImage}) {
 <h3> {price} kr </h3>
         </li>
       </ul>
-    </div>
+  </div>
   )
 }
 

@@ -1,0 +1,24 @@
+.banner-content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading-menu{
+    font-size: 60px;
+    color: white;
+}
+
+.text-menu{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+}
+
+.container-menu{
+    width: 100%;
+    margin:0 auto;
+    padding: 0 400px;
+}
