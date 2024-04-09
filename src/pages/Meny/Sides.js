@@ -1,7 +1,7 @@
 import React from 'react'
 import ListItem from '../../components/ListItem';
 import "../../styles/Sides.css";
-
+import fries1 from "../../assets/Fries.jpg";
 
 const menuDataLeft= [
     {
@@ -10,6 +10,7 @@ const menuDataLeft= [
         title: "Classic Fries",
         description: "Klassiska Pommes",
         price: "25",
+        img:fries1,
 
 
     },
@@ -21,6 +22,7 @@ const menuDataLeft= [
         title: "Animal fries",
         description: "Pommes med kött",
         price: "70",
+        img:fries1,
 
 
     },
@@ -31,6 +33,7 @@ const menuDataLeft= [
         title: "Chili Chease",
         description: "Med Ost",
         price: "20",
+        img:fries1,
 
 
     },
@@ -44,6 +47,7 @@ const menuDataRight= [
         title: "Cheddar Fries",
         description: "Med Smältost",
         price: "12",
+        img:fries1,
 
 
     },
@@ -55,6 +59,7 @@ const menuDataRight= [
         title: "Carrots",
         description: "Morötter",
         price: "49",
+        img:fries1,
 
 
     },
@@ -65,6 +70,7 @@ const menuDataRight= [
         title: "Söt Potatis Fries",
         description: "Med Sötpotatis",
         price: "35",
+        img:fries1,
 
 
     },
@@ -89,7 +95,8 @@ function Sides() {
 <ListItem 
 title={data.title} 
 description={data.description} 
-price={data.price}></ListItem>
+price={data.price}
+itemImage={data.img}></ListItem>
 ))}
 
 </div>
@@ -100,7 +107,8 @@ price={data.price}></ListItem>
 <ListItem 
 title={data.title} 
 description={data.description} 
-price={data.price}></ListItem>
+price={data.price}
+itemImage={data.img}></ListItem>
 ))}
 
 </div>

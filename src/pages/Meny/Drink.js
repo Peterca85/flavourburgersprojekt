@@ -3,6 +3,7 @@ import ListItem from '../../components/ListItem';
 import "../../styles/Drink.css";
 
 
+
 const menuDataLeft= [
     {
 
@@ -10,6 +11,7 @@ const menuDataLeft= [
         title: "Coca Cola",
         description: "Den bästa",
         price: "30",
+       
 
 
     },
