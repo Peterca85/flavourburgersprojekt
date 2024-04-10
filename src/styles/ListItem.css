@@ -34,3 +34,25 @@ border-radius: 50%;
 margin-right: 20px;
 margin-bottom: 30px;
 }
+
+.list-items .add {
+    height: 30px;
+    width: 30px;
+ 
+}
+
+.list-items .remove{
+    height: 30px;
+    width: 30px;
+}
+
+.food-item-counter{
+    position: absolute;
+
+display: flex;
+    align-items: center;
+    gap:10px;
+    cursor: pointer;
+    border-radius: 40px;
+    background-color: #F0FFFF;
+}

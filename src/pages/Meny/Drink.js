@@ -9,7 +9,7 @@ const menuDataLeft= [
 
   
         title: "Coca Cola",
-        description: "Den bästa",
+        description: "33 Cl",
         price: "30",
        
 
@@ -21,7 +21,7 @@ const menuDataLeft= [
    
 
         title: "Fanta",
-        description: "Exotisk",
+        description: "33 Cl",
         price: "25",
 
 
@@ -31,7 +31,7 @@ const menuDataLeft= [
 
     
         title: "Trocadero",
-        description: "Törstsläckande",
+        description: "33 Cl",
         price: "20",
 
 
@@ -44,7 +44,7 @@ const menuDataMiddle= [
 
   
         title: "Sprite",
-        description: "Norrländsk",
+        description: "33 Cl",
         price: "25",
 
 
@@ -55,7 +55,7 @@ const menuDataMiddle= [
    
 
         title: "Pepsi",
-        description: "Som Cola",
+        description: "33 Cl",
         price: "25",
 
 
@@ -65,7 +65,7 @@ const menuDataMiddle= [
 
     
         title: "Zingo",
-        description: "En klassiker",
+        description: "33 Cl",
         price: "20",
 
 
@@ -79,7 +79,7 @@ const menuDataRight= [
 
   
         title: "Heineken",
-        description: "Holländsk öl",
+        description: " 33 Cl",
         price: "70",
 
 
@@ -90,7 +90,7 @@ const menuDataRight= [
    
 
         title: "Morretti",
-        description: "Öl från Italien",
+        description: "33 Cl",
         price: "85",
 
 
@@ -100,7 +100,7 @@ const menuDataRight= [
 
     
         title: "Carlsberg",
-        description: "Öl från Danmark",
+        description: "50 Cl",
         price: "75",
 
 

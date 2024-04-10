@@ -5,7 +5,7 @@ function TopImage(props) {
   return (
     <div className='container-menu'
     style={{background: `url(${props.headerImage}) no-repeat bottom center/cover`,
-    height:"40vh"
+    height:"80vh"
 }}>
 
     <div className='banner-content'>

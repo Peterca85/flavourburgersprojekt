@@ -4,7 +4,7 @@ import Sides from './Meny/Sides';
 import Dips from "./Meny/Dips";
 import Drink from './Meny/Drink';
 import TopImage from './TopImage/TopImage';
-import headerImage from "../assets/hamburgerBackground.jpg";
+import headerImage from "../assets/header.jpg";
 
 
 
@@ -16,9 +16,7 @@ function Menu() {
       <TopImage
               headerImage={headerImage}
               heading={["Vår Meny"]}
-              text="Det här erbjuder vi"/>
-
-     
+              text="Beställ din mat här !"/>
     <Burgare></Burgare>
     <Sides></Sides>
     <Dips></Dips>

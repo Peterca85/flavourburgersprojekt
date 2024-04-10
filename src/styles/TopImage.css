@@ -6,19 +6,29 @@
 }
 
 .heading-menu{
-    font-size: 60px;
+    font-size: 100px;
     color: white;
 }
 
 .text-menu{
-    font-size: 20px;
+    font-size: 30px;
     padding: 10px;
     font-weight: 600;
     color: white;
 }
 
 .container-menu{
-    width: 100%;
-    margin:0 auto;
-    padding: 0 400px;
+ 
+    
+width: 100%;
+margin:0 auto;
+padding: 0 300px;
+padding-top: 22%;
+
+
 }
+
+
+
+
+
