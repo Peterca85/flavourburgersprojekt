@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useRef } from "react";
 import Logo from "../assets/FlavourBurgers.png";
+import Cart from "../assets/cart.png";
 import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
@@ -25,6 +26,9 @@ function Navbar() {
         <Link to="/omOss"> Om oss </Link>
         <Link to="/happenings"> Happenings </Link>
         <Link to="/Kontakt"> Kontakt </Link>
+        <Link to="/cart">
+        <img src={Cart} width={50} alt="Cart" />
+        </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <HighlightOffIcon fontSize="large" />
         </button>

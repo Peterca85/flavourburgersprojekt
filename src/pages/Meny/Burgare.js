@@ -7,7 +7,7 @@ import burgerImage from "../../assets/burgermonth.jpg"
 const menuDataLeft= [
     {
 
-  
+        id:1,
         title: "Burgare",
         description: "Med Bacon",
         price: "100",
@@ -18,7 +18,7 @@ const menuDataLeft= [
     {
 
    
-
+      id:2,
         title: "Cheeseburgare",
         description: "Med Ost",
         price: "109",
@@ -28,7 +28,7 @@ const menuDataLeft= [
 
     {
 
-    
+      id:3,
         title: "Veggieburgare",
         description: "Vegetarisk",
         price: "110",
@@ -42,6 +42,7 @@ const menuDataLeft= [
 const menuDataRight = [
 
     { 
+      id:4,
         title: "Tacofiesta",
         description: "Tex Mex",
         price: "129",
@@ -50,6 +51,7 @@ const menuDataRight = [
     },
     
     { 
+      id:5,
         title: "Dubbelcheese",
         description: "Dubbel Ost",
         price: "125",
@@ -58,6 +60,7 @@ const menuDataRight = [
     },
 
    {
+    id:6,
         title: "Jalapeño fiesta",
         description: "kryddig",
         price: "130",
@@ -82,7 +85,8 @@ function Burgare() {
 title={data.title} 
 description={data.description} 
 price={data.price}
-itemImage={data.img}>
+itemImage={data.img}
+id={data.id}>
 </ListItem>
 ))}
 
@@ -95,7 +99,11 @@ itemImage={data.img}>
 title={data.title} 
 description={data.description} 
 price={data.price}
-itemImage={data.img}></ListItem>
+itemImage={data.img}
+id={data.id}
+>
+ 
+</ListItem>
 ))}
 
 </div>

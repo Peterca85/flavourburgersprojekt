@@ -48,11 +48,11 @@ margin-bottom: 30px;
 
 .food-item-counter{
     position: absolute;
-
-display: flex;
+    display: flex;
     align-items: center;
     gap:10px;
     cursor: pointer;
     border-radius: 40px;
     background-color: #F0FFFF;
 }
+

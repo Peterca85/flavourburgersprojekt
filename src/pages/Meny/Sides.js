@@ -6,7 +6,7 @@ import fries1 from "../../assets/Fries.jpg";
 const menuDataLeft= [
     {
 
-  
+        id:7,
         title: "Classic Fries",
         description: "Klassiska Pommes",
         price: "25",
@@ -18,7 +18,7 @@ const menuDataLeft= [
     {
 
    
-
+        id:8,
         title: "Animal fries",
         description: "Pommes med kött",
         price: "70",
@@ -29,7 +29,7 @@ const menuDataLeft= [
 
     {
 
-    
+        id:9,
         title: "Chili Chease",
         description: "Med Ost",
         price: "20",
@@ -43,7 +43,7 @@ const menuDataLeft= [
 const menuDataRight= [
     {
 
-  
+        id:10,
         title: "Cheddar Fries",
         description: "Med Smältost",
         price: "12",
@@ -55,7 +55,7 @@ const menuDataRight= [
     {
 
    
-
+        id:11,
         title: "Carrots",
         description: "Morötter",
         price: "49",
@@ -66,7 +66,7 @@ const menuDataRight= [
 
     {
 
-    
+        id:12,
         title: "Söt Potatis Fries",
         description: "Med Sötpotatis",
         price: "35",
@@ -96,7 +96,8 @@ function Sides() {
 title={data.title} 
 description={data.description} 
 price={data.price}
-itemImage={data.img}></ListItem>
+itemImage={data.img}
+id={data.id}></ListItem>
 ))}
 
 </div>
@@ -108,7 +109,8 @@ itemImage={data.img}></ListItem>
 title={data.title} 
 description={data.description} 
 price={data.price}
-itemImage={data.img}></ListItem>
+itemImage={data.img}
+id={data.id}></ListItem>
 ))}
 
 </div>
