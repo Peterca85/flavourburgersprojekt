@@ -16,8 +16,8 @@ function Navbar() {
 
   return (
     <header>
-      <Link to="/"> 
-      <img src={Logo} width={100} alt="logotype" />
+      <Link to="/">
+        <img src={Logo} width={100} alt="logotype" />
       </Link>
       <nav ref={navRef}>
         <Link to="/"> Hem </Link>
@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/happenings"> Happenings </Link>
         <Link to="/Kontakt"> Kontakt </Link>
         <Link to="/cart">
-        <img className="shopcart" src={Cart} width={50} alt="Cart" />
+          <img className="shopcart" src={Cart} width={50} alt="Cart" />
         </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <HighlightOffIcon fontSize="large" />
