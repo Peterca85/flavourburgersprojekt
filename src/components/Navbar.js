@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/happenings"> Happenings </Link>
         <Link to="/Kontakt"> Kontakt </Link>
         <Link to="/cart">
-        <img src={Cart} width={50} alt="Cart" />
+        <img className="shopcart" src={Cart} width={50} alt="Cart" />
         </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <HighlightOffIcon fontSize="large" />

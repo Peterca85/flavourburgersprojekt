@@ -32,6 +32,10 @@ header .nav-btn {
 	font-size: 1.8rem;
 }
 
+header .shopcart{
+	margin-left:350%;
+}
+
 header div,
 nav {
 	display: flex;

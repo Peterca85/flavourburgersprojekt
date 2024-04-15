@@ -10,14 +10,13 @@ import kontakt from "./pages/Contact";
 import Meny from "./pages/Menu";
 import Order from "./pages/OrderOnline";
 import cart from "./pages/Cart";
-import StoreComponentProvider from "./components/StoreComponents";
+
 
 function App() {
   return (
     <div className="App">
       <React.Fragment>
-        <StoreComponentProvider>
-          <Router>
+         <Router>
             <Navbar />
             <Routes>
               <Route path="/" exact Component={Home} />
@@ -30,7 +29,6 @@ function App() {
             </Routes>
             <Footer />
           </Router>
-        </StoreComponentProvider>
       </React.Fragment>
     </div>
   );
