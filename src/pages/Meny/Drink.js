@@ -1,6 +1,16 @@
 import React from "react";
 import ListItem from "../../components/ListItem";
 import "../../styles/Drink.css";
+import cocacola from "../../assets/cocacola.jpg";
+import heineken from "../../assets/heineken1.jpg";
+import moretti from "../../assets/birra-moretti.jpg";
+import carlsberg from "../../assets/carlsberg.png";
+import sprite from "../../assets/sprite.jpg";
+import pepsi from "../../assets/pepsi.jpg";
+import loka from "../../assets/loka.jpg";
+import fanta from "../../assets/fanta.jpg";
+import trocca from "../../assets/trocca.jpg";
+
 
 export const menuDataLeft = [
   {
@@ -8,6 +18,7 @@ export const menuDataLeft = [
     title: "Coca Cola",
     description: "33 Cl",
     price: "30",
+    img: cocacola,
   },
 
   {
@@ -15,6 +26,7 @@ export const menuDataLeft = [
     title: "Fanta",
     description: "33 Cl",
     price: "25",
+    img:fanta,
   },
 
   {
@@ -22,6 +34,7 @@ export const menuDataLeft = [
     title: "Trocadero",
     description: "33 Cl",
     price: "20",
+    img:trocca,
   },
 ];
 
@@ -31,6 +44,7 @@ export const menuDataMiddle = [
     title: "Sprite",
     description: "33 Cl",
     price: "25",
+    img:sprite,
   },
 
   {
@@ -38,13 +52,15 @@ export const menuDataMiddle = [
     title: "Pepsi",
     description: "33 Cl",
     price: "25",
+    img:pepsi,
   },
 
   {
     id: 26,
-    title: "Zingo",
+    title: "Loka",
     description: "33 Cl",
     price: "20",
+    img:loka,
   },
 ];
 
@@ -54,6 +70,7 @@ export const menuDataRight = [
     title: "Heineken",
     description: " 33 Cl",
     price: "70",
+    img: heineken,
   },
 
   {
@@ -61,6 +78,7 @@ export const menuDataRight = [
     title: "Morretti",
     description: "33 Cl",
     price: "85",
+    img:moretti,
   },
 
   {
@@ -68,6 +86,7 @@ export const menuDataRight = [
     title: "Carlsberg",
     description: "50 Cl",
     price: "75",
+    img:carlsberg,
   },
 ];
 

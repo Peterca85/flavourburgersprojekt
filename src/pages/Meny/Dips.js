@@ -1,7 +1,10 @@
 import React from "react";
 import "../../styles/Dips.css";
 import ListItem from "../../components/ListItem";
-import Dip from "../../assets/dipsauce.jpg";
+import Dip from "../../assets/menufries.jpg";
+import dipsauce from "../../assets/dipsauce.jpg";
+import reddip from "../../assets/reddipsauce.jpg";
+
 
 export const menuDataRight = [
   {
@@ -9,6 +12,7 @@ export const menuDataRight = [
     title: "Bearnaise",
     description: "Bea smak",
     price: "15",
+    img:dipsauce,
   },
 
   {
@@ -16,6 +20,7 @@ export const menuDataRight = [
     title: "Blue-chese",
     description: "Den vanliga goda",
     price: "20",
+    img:dipsauce,
   },
 
   {
@@ -23,6 +28,7 @@ export const menuDataRight = [
     title: "Smältost",
     description: "Cheddar",
     price: "30",
+    img:dipsauce,
   },
 
   {
@@ -30,6 +36,7 @@ export const menuDataRight = [
     title: "Orginal Dip",
     description: "Klassikern",
     price: "30",
+    img:dipsauce,
   },
 
   {
@@ -37,6 +44,7 @@ export const menuDataRight = [
     title: "Salsa Dip",
     description: "Med sting ",
     price: "30",
+    img:reddip,
   },
 
   {
@@ -44,6 +52,7 @@ export const menuDataRight = [
     title: "Vitlök",
     description: "Yummy",
     price: "30",
+    img:dipsauce,
   },
 
   {
@@ -51,6 +60,7 @@ export const menuDataRight = [
     title: "Barbecue",
     description: "BBQ",
     price: "30",
+    img:reddip,
   },
 
   {
@@ -58,6 +68,7 @@ export const menuDataRight = [
     title: "Tryffel Majo",
     description: "Smarrig",
     price: "30",
+    img:dipsauce,
   },
 ];
 

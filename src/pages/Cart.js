@@ -14,6 +14,8 @@ import {
   menuDataRight as DrinksRight,
   menuDataMiddle as DrinksMiddle,
 } from "./Meny/Drink";
+import "../styles/Cart.css";
+import ClearIcon from '@mui/icons-material/Clear';
 
 function Cart() {
   const { cartItems, ListItem, removeFromCart } = useContext(StoreComponent);
@@ -36,11 +38,6 @@ function Cart() {
         <br></br>
         <hr></hr>
         <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <hr></hr>
 
         {Object.keys(cartItems).map((id) => {
           let test = BurgareLeft.find((x) => x.id.toString() === id);
@@ -67,8 +64,16 @@ function Cart() {
           }
           console.log(test);
           return (
-            <div className="cart-items.title cart-items-item">
-              <h1>{test.title}</h1>
+            <div>
+              <div className="cart-items-title cart-items-item">
+                <img src={test.img} width={300}></img>
+                <h5>{test.title}</h5>
+                <h5>{test.price} kr</h5>
+                <h5>{cartItems[test.id]}</h5>
+                <h5>{test.price * cartItems[test.id]} kr</h5>
+                <ClearIcon onClick={()=>removeFromCart(test.id)} sx={{ cursor: 'pointer' }} >  </ClearIcon>
+              </div>
+              <hr></hr>
             </div>
           );
         })}
