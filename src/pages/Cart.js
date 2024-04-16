@@ -15,7 +15,8 @@ import {
   menuDataMiddle as DrinksMiddle,
 } from "./Meny/Drink";
 import "../styles/Cart.css";
-import ClearIcon from '@mui/icons-material/Clear';
+import ClearIcon from "@mui/icons-material/Clear";
+import { Button } from "@mui/material";
 
 function Cart() {
   const { cartItems, ListItem, removeFromCart } = useContext(StoreComponent);
@@ -71,13 +72,40 @@ function Cart() {
                 <h5>{test.price} kr</h5>
                 <h5>{cartItems[test.id]}</h5>
                 <h5>{test.price * cartItems[test.id]} kr</h5>
-                <ClearIcon onClick={()=>removeFromCart(test.id)} sx={{ cursor: 'pointer' }} >  </ClearIcon>
+                <ClearIcon
+                  onClick={() => removeFromCart(test.id)}
+                  sx={{ cursor: "pointer" }}
+                >
+                  {" "}
+                </ClearIcon>
               </div>
               <hr></hr>
             </div>
           );
         })}
       </div>
+      <div className="cart-bottom">
+        <div className="cart-total">
+          <h2>Varukorg totalt</h2>
+          <div>
+            <div className="cart-totals-details">
+              <p>Sub Total</p>
+              <p>{0}</p>
+               </div>
+               <hr></hr>
+            <div className="cart-totals-details">
+              <p>Leverans avgift</p> 
+              <p>{2}</p>
+              </div>
+              <hr></hr>
+            <div className="cart-totals-details"> 
+            <b>Totalt </b>
+            <b>{0}</b>
+            </div>
+          </div>
+          <Button variant="contained">Gå till checkout</Button>
+         </div>
+        </div>
     </div>
   );
 }
