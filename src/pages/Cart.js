@@ -19,11 +19,8 @@ import ClearIcon from "@mui/icons-material/Clear";
 import { Button } from "@mui/material";
 
 function Cart() {
-  const { cartItems, ListItem, removeFromCart } = useContext(StoreComponent);
+  const { cartItems,removeFromCart,getCartTotal } = useContext(StoreComponent);
 
-  console.log("cartItems; ", cartItems);
-
-  console.log("ListItems: ", ListItem);
 
   return (
     <div className="cart">
@@ -89,18 +86,18 @@ function Cart() {
           <h2>Varukorg totalt</h2>
           <div>
             <div className="cart-totals-details">
-              <p>Sub Total</p>
-              <p>{0}</p>
+              <p>Summering</p>
+              <p>{getCartTotal}</p>
                </div>
                <hr></hr>
             <div className="cart-totals-details">
               <p>Leverans avgift</p> 
-              <p>{2}</p>
+              <p>{20} kr</p>
               </div>
               <hr></hr>
             <div className="cart-totals-details"> 
             <b>Totalt </b>
-            <b>{0}</b>
+            <b>{getCartTotal()+20} kr</b>
             </div>
           </div>
           <Button variant="contained">Gå till checkout</Button>

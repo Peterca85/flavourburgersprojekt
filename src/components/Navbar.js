@@ -4,7 +4,7 @@ import Logo from "../assets/FlavourBurgers.png";
 import { Link } from "react-router-dom";
 import ReorderIcon from "@mui/icons-material/Reorder";
 import HighlightOffIcon from "@mui/icons-material/HighlightOff";
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -27,7 +27,7 @@ function Navbar() {
         <Link to="/happenings"> Happenings </Link>
         <Link to="/Kontakt"> Kontakt </Link>
         <Link to="/cart">
-          <ShoppingCartIcon fontSize="large" ></ShoppingCartIcon>
+          <ShoppingCartIcon fontSize="large"></ShoppingCartIcon>
         </Link>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <HighlightOffIcon fontSize="large" />
