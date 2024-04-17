@@ -16,7 +16,7 @@ export const menuDataLeft = [
     id: 8,
     title: "Animal fries",
     description: "Pommes med kött",
-    price: "70",
+    price: "60",
     img: fries1,
   },
 
@@ -24,7 +24,7 @@ export const menuDataLeft = [
     id: 9,
     title: "Chili Chease",
     description: "Med Ost",
-    price: "20",
+    price: "30",
     img: fries1,
   },
 ];
@@ -34,7 +34,7 @@ export const menuDataRight = [
     id: 10,
     title: "Cheddar Fries",
     description: "Med Smältost",
-    price: "12",
+    price: "35",
     img: fries1,
   },
 
@@ -42,7 +42,7 @@ export const menuDataRight = [
     id: 11,
     title: "Carrots",
     description: "Morötter",
-    price: "49",
+    price: "20",
     img: fries1,
   },
 

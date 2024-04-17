@@ -25,7 +25,7 @@ export const menuDataLeft = [
     id: 22,
     title: "Fanta",
     description: "33 Cl",
-    price: "25",
+    price: "30",
     img:fanta,
   },
 
@@ -33,7 +33,7 @@ export const menuDataLeft = [
     id: 23,
     title: "Trocadero",
     description: "33 Cl",
-    price: "20",
+    price: "30",
     img:trocca,
   },
 ];
@@ -43,7 +43,7 @@ export const menuDataMiddle = [
     id: 24,
     title: "Sprite",
     description: "33 Cl",
-    price: "25",
+    price: "30",
     img:sprite,
   },
 
@@ -51,7 +51,7 @@ export const menuDataMiddle = [
     id: 25,
     title: "Pepsi",
     description: "33 Cl",
-    price: "25",
+    price: "30",
     img:pepsi,
   },
 
@@ -59,7 +59,7 @@ export const menuDataMiddle = [
     id: 26,
     title: "Loka",
     description: "33 Cl",
-    price: "20",
+    price: "30",
     img:loka,
   },
 ];

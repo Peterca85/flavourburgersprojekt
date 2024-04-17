@@ -24,7 +24,7 @@ export const menuDataLeft = [
     id: 3,
     title: "Veggieburgare",
     description: "Vegetarisk",
-    price: "110",
+    price: "109",
     img: burgerImage,
   },
 ];
@@ -50,7 +50,7 @@ export const menuDataRight = [
     id: 6,
     title: "Jalapeño fiesta",
     description: "kryddig",
-    price: "130",
+    price: "129",
     img: burgerImage,
   },
 ];
