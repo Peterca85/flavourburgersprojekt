@@ -87,7 +87,7 @@ function Cart() {
           <div>
             <div className="cart-totals-details">
               <p>Summering</p>
-              <p>{getCartTotal}</p>
+              <p>{getCartTotal()} kr</p>
                </div>
                <hr></hr>
             <div className="cart-totals-details">
