@@ -29,7 +29,15 @@ const StoreComponentProvider = (props) => {
   };
 
   const removeFromCart = (itemId) => {
-    setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    setCartItems((prev) => {
+      const updatedCart = { ...prev };
+      if (updatedCart[itemId] === 1) {
+        delete updatedCart[itemId]; 
+      } else if (updatedCart[itemId] > 1) {
+        updatedCart[itemId] -= 1; 
+      }
+      return updatedCart;
+    });
   };
 
   const getCartTotal = () => {

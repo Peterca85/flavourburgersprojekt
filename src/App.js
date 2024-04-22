@@ -8,7 +8,6 @@ import About from "./pages/About";
 import Happenings from "./pages/Happenings";
 import kontakt from "./pages/Contact";
 import Meny from "./pages/Menu";
-import Order from "./pages/OrderOnline";
 import cart from "./pages/Cart";
 
 
@@ -24,7 +23,6 @@ function App() {
               <Route path="/happenings" exact Component={Happenings} />
               <Route path="/Kontakt" exact Component={kontakt} />
               <Route path="/meny" exact Component={Meny} />
-              <Route path="/bestallOnline" exact Component={Order} />
               <Route path="/cart" exact Component={cart} />
             </Routes>
             <Footer />

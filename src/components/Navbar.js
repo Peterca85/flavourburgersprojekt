@@ -13,6 +13,7 @@ function Navbar() {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   };
+  
 
   return (
     <header>
@@ -22,7 +23,6 @@ function Navbar() {
       <nav ref={navRef}>
         <Link to="/"> Hem </Link>
         <Link to="/meny"> Meny </Link>
-        <Link to="/bestallOnline"> Beställ Online </Link>
         <Link to="/omOss"> Om oss </Link>
         <Link to="/happenings"> Happenings </Link>
         <Link to="/Kontakt"> Kontakt </Link>
