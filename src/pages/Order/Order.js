@@ -29,19 +29,19 @@ function Order() {
       <div className="cart-total">
           <h2>Varukorg totalt</h2>
           <div>
-            <div className="cart-totals-details">
+          <div className="cart-totals-details">
               <p>Summering</p>
               <p>{getCartTotal()} kr</p>
                </div>
                <hr></hr>
             <div className="cart-totals-details">
               <p>Leverans avgift</p> 
-              <p>{20} kr</p>
+              <p>{getCartTotal()===0?0:20} kr</p>
               </div>
               <hr></hr>
             <div className="cart-totals-details"> 
             <b>Totalt </b>
-            <b>{getCartTotal()+20} kr</b>
+            <b>{getCartTotal()===0?0:getCartTotal()+20} kr</b>
             </div>
           </div>
           <Button variant="contained">Gå till betalning</Button>
