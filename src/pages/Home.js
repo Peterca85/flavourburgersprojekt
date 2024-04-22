@@ -14,7 +14,7 @@ function Home() {
         <h1 className="startHeader"> Flavour Burgers </h1>
         <p className="startText">Bästa burgarna i stan !</p>
         <br></br>
-        <Link to="/bestallOnline">
+        <Link to="/meny">
           <button className="startbutton">Beställ nu</button>
         </Link>
       </div>
