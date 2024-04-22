@@ -9,9 +9,10 @@ import Happenings from "./pages/Happenings";
 import kontakt from "./pages/Contact";
 import Meny from "./pages/Menu";
 import cart from "./pages/Cart";
+import order from "./pages/Order/Order";
 
 
-function App() {
+function App() {               
   return (
     <div className="App">
       <React.Fragment>
@@ -24,6 +25,7 @@ function App() {
               <Route path="/Kontakt" exact Component={kontakt} />
               <Route path="/meny" exact Component={Meny} />
               <Route path="/cart" exact Component={cart} />
+              <Route path="/order" exact Component={order} />
             </Routes>
             <Footer />
           </Router>

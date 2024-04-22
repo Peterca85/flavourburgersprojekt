@@ -17,9 +17,12 @@ import {
 import "../styles/Cart.css";
 import ClearIcon from "@mui/icons-material/Clear";
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function Cart() {
   const { cartItems,removeFromCart,getCartTotal } = useContext(StoreComponent);
+
+  const navigate = useNavigate(StoreComponent);
 
 
   return (
@@ -100,7 +103,7 @@ function Cart() {
             <b>{getCartTotal()+20} kr</b>
             </div>
           </div>
-          <Button variant="contained">Gå till checkout</Button>
+          <Button variant="contained" onClick={()=>navigate("/order")}>Gå till checkout</Button>
          </div>
         </div>
     </div>
