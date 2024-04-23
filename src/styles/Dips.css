@@ -1,9 +1,4 @@
-.container-dips img {
 
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
 
 .grid-container{
     max-width: 1310px;
@@ -17,3 +12,6 @@
     margin:0 auto;
     padding: 0 50px;
    }
+
+
+   

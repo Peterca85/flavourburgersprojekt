@@ -100,10 +100,12 @@ function Drink() {
           <div>
             {menuDataLeft.map((data, i) => (
               <ListItem
-                key={i}
-                title={data.title}
-                description={data.description}
-                price={data.price}
+              key={i}
+              title={data.title}
+              description={data.description}
+              price={data.price}
+              itemImage={data.img}
+              id={data.id}
               ></ListItem>
             ))}
           </div>
@@ -115,6 +117,7 @@ function Drink() {
                 title={data.title}
                 description={data.description}
                 price={data.price}
+                itemImage={data.img}
                 id={data.id}
               ></ListItem>
             ))}
@@ -127,6 +130,7 @@ function Drink() {
                 title={data.title}
                 description={data.description}
                 price={data.price}
+                itemImage={data.img}
                 id={data.id}
               ></ListItem>
             ))}

@@ -9,6 +9,8 @@
 .place-order-left {
     width: 100%;
     max-width: max(30%, 500px);
+    padding-left: 5%;
+
 }
 
 .place-order-left .title {
@@ -34,7 +36,7 @@
 }
 
 .place-order-right {
-    margin-right: 50px;
+    margin-right: 10%;
     width: 100%;
     max-width: max (40%, 500px);
 

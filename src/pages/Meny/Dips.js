@@ -1,18 +1,16 @@
 import React from "react";
 import "../../styles/Dips.css";
 import ListItem from "../../components/ListItem";
-import Dip from "../../assets/menufries.jpg";
 import dipsauce from "../../assets/dipsauce.jpg";
-import reddip from "../../assets/reddipsauce.jpg";
+import reddip from "../../assets/redsauce.jpg";
 
-
-export const menuDataRight = [
+export const menuDataLeft = [
   {
     id: 13,
     title: "Bearnaise",
     description: "Bea smak",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
 
   {
@@ -20,7 +18,7 @@ export const menuDataRight = [
     title: "Blue-chese",
     description: "Den vanliga goda",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
 
   {
@@ -28,7 +26,7 @@ export const menuDataRight = [
     title: "Smältost",
     description: "Cheddar",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
 
   {
@@ -36,15 +34,17 @@ export const menuDataRight = [
     title: "Orginal Dip",
     description: "Klassikern",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
+];
 
+export const menuDataRight = [
   {
     id: 17,
     title: "Salsa Dip",
     description: "Med sting ",
     price: "15",
-    img:reddip,
+    img: reddip,
   },
 
   {
@@ -52,7 +52,7 @@ export const menuDataRight = [
     title: "Vitlök",
     description: "Yummy",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
 
   {
@@ -60,7 +60,7 @@ export const menuDataRight = [
     title: "Barbecue",
     description: "BBQ",
     price: "15",
-    img:reddip,
+    img: reddip,
   },
 
   {
@@ -68,7 +68,7 @@ export const menuDataRight = [
     title: "Tryffel Majo",
     description: "Smarrig",
     price: "15",
-    img:dipsauce,
+    img: dipsauce,
   },
 ];
 
@@ -79,7 +79,15 @@ function Dips() {
 
       <div className="grid-container">
         <div>
-          <img src={Dip} alt="Hamburger" />
+          {menuDataLeft.map((data, i) => (
+            <ListItem
+              title={data.title}
+              description={data.description}
+              price={data.price}
+              itemImage={data.img}
+              id={data.id}
+            ></ListItem>
+          ))}
         </div>
 
         <div>
@@ -88,6 +96,7 @@ function Dips() {
               title={data.title}
               description={data.description}
               price={data.price}
+              itemImage={data.img}
               id={data.id}
             ></ListItem>
           ))}

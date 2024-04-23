@@ -8,11 +8,13 @@ grid-template-columns:1fr 1.5fr 1fr 1fr 1fr 0.5fr ;
 align-items: center;
 color: grey;
 font-size: max(1vw,12px) ;
+padding-left: 5%;
 }
 
 .cart-items-item{
     margin:10px 0px;
     color: black;
+    padding-left: 5%;
 }
 
 .cart-items-item img{
@@ -37,6 +39,8 @@ font-size: max(1vw,12px) ;
     display: flex;
     flex-direction: column;
     gap:40px;
+    padding-left: 5%;
+    padding-bottom: 5%;
  }
 
  .cart-totals-details{
