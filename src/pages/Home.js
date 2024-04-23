@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import videoBg from "../assets/bgvideo.mp4";
-import BurgerMonth from "../assets/burgermonth.jpg";
+import BurgerMonth from "../assets/jalapeno.jpg";
 import Room from "@mui/icons-material/Room";
 import Burger from "../assets/transparent.png";
 import "../styles/Home.css";

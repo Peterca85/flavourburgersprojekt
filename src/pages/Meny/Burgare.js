@@ -2,6 +2,12 @@ import React from "react";
 import "../../styles/Burgare.css";
 import ListItem from "../../components/ListItem";
 import burgerImage from "../../assets/burgermonth.jpg";
+import cheeseburger from "../../assets/cheeseburger.jpg";
+import taco from "../../assets/taco.jpg";
+import dubbel from "../../assets/dubbel.jpg";
+import jalapeno from "../../assets/jalapeno.jpg";
+import burger from "../../assets/baconburger.jpg";
+import veggie from "../../assets/veggie.jpg";
 
 export const menuDataLeft = [
   {
@@ -9,7 +15,7 @@ export const menuDataLeft = [
     title: "Burgare",
     description: "Med Bacon",
     price: "100",
-    img: burgerImage,
+    img: burger,
   },
 
   {
@@ -17,7 +23,7 @@ export const menuDataLeft = [
     title: "Cheeseburgare",
     description: "Med Ost",
     price: "109",
-    img: burgerImage,
+    img: cheeseburger,
   },
 
   {
@@ -25,7 +31,7 @@ export const menuDataLeft = [
     title: "Veggieburgare",
     description: "Vegetarisk",
     price: "109",
-    img: burgerImage,
+    img: veggie,
   },
 ];
 
@@ -35,7 +41,7 @@ export const menuDataRight = [
     title: "Tacofiesta",
     description: "Tex Mex",
     price: "129",
-    img: burgerImage,
+    img: taco,
   },
 
   {
@@ -43,7 +49,7 @@ export const menuDataRight = [
     title: "Dubbelcheese",
     description: "Dubbel Ost",
     price: "125",
-    img: burgerImage,
+    img: dubbel,
   },
 
   {
@@ -51,7 +57,7 @@ export const menuDataRight = [
     title: "Jalapeño fiesta",
     description: "kryddig",
     price: "129",
-    img: burgerImage,
+    img: jalapeno,
   },
 ];
 

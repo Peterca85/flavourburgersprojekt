@@ -1,7 +1,7 @@
 import React from "react";
 import ListItem from "../../components/ListItem";
 import "../../styles/Drink.css";
-import cocacola from "../../assets/cocacola.jpg";
+import cocacola from "../../assets/cola.jpg";
 import heineken from "../../assets/heineken1.jpg";
 import moretti from "../../assets/birra-moretti.jpg";
 import carlsberg from "../../assets/carlsberg.png";
@@ -9,8 +9,7 @@ import sprite from "../../assets/sprite.jpg";
 import pepsi from "../../assets/pepsi.jpg";
 import loka from "../../assets/loka.jpg";
 import fanta from "../../assets/fanta.jpg";
-import trocca from "../../assets/trocca.jpg";
-
+import trocca from "../../assets/troccadero.jpeg";
 
 export const menuDataLeft = [
   {
@@ -26,7 +25,7 @@ export const menuDataLeft = [
     title: "Fanta",
     description: "33 Cl",
     price: "30",
-    img:fanta,
+    img: fanta,
   },
 
   {
@@ -34,7 +33,7 @@ export const menuDataLeft = [
     title: "Trocadero",
     description: "33 Cl",
     price: "30",
-    img:trocca,
+    img: trocca,
   },
 ];
 
@@ -44,7 +43,7 @@ export const menuDataMiddle = [
     title: "Sprite",
     description: "33 Cl",
     price: "30",
-    img:sprite,
+    img: sprite,
   },
 
   {
@@ -52,7 +51,7 @@ export const menuDataMiddle = [
     title: "Pepsi",
     description: "33 Cl",
     price: "30",
-    img:pepsi,
+    img: pepsi,
   },
 
   {
@@ -60,7 +59,7 @@ export const menuDataMiddle = [
     title: "Loka",
     description: "33 Cl",
     price: "30",
-    img:loka,
+    img: loka,
   },
 ];
 
@@ -78,7 +77,7 @@ export const menuDataRight = [
     title: "Morretti",
     description: "33 Cl",
     price: "85",
-    img:moretti,
+    img: moretti,
   },
 
   {
@@ -86,7 +85,7 @@ export const menuDataRight = [
     title: "Carlsberg",
     description: "50 Cl",
     price: "75",
-    img:carlsberg,
+    img: carlsberg,
   },
 ];
 
@@ -100,12 +99,12 @@ function Drink() {
           <div>
             {menuDataLeft.map((data, i) => (
               <ListItem
-              key={i}
-              title={data.title}
-              description={data.description}
-              price={data.price}
-              itemImage={data.img}
-              id={data.id}
+                key={i}
+                title={data.title}
+                description={data.description}
+                price={data.price}
+                itemImage={data.img}
+                id={data.id}
               ></ListItem>
             ))}
           </div>

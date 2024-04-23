@@ -1,7 +1,12 @@
 import React from "react";
 import ListItem from "../../components/ListItem";
 import "../../styles/Sides.css";
-import fries1 from "../../assets/Fries.jpg";
+import cheddar from "../../assets/Fries.jpg";
+import orginalfries from "../../assets/orginalfries.jpg";
+import onionrings from "../../assets/onionrings.jpg";
+import sweetpotato from "../../assets/sweetpotato.jpg";
+import animalfries from "../../assets/animalfries.jpg";
+import chili from "../../assets/chili.jpg";
 
 export const menuDataLeft = [
   {
@@ -9,23 +14,23 @@ export const menuDataLeft = [
     title: "Classic Fries",
     description: "Klassiska Pommes",
     price: "25",
-    img: fries1,
+    img: orginalfries,
   },
 
   {
     id: 8,
     title: "Animal fries",
-    description: "Pommes med kött",
+    description: "Pommes med Bacon & ost",
     price: "60",
-    img: fries1,
+    img: animalfries,
   },
 
   {
     id: 9,
-    title: "Chili Chease",
-    description: "Med Ost",
+    title: "Chili Cheese",
+    description: "Med Chili & Ost",
     price: "30",
-    img: fries1,
+    img: chili,
   },
 ];
 
@@ -35,15 +40,15 @@ export const menuDataRight = [
     title: "Cheddar Fries",
     description: "Med Smältost",
     price: "35",
-    img: fries1,
+    img: cheddar,
   },
 
   {
     id: 11,
-    title: "Carrots",
-    description: "Morötter",
-    price: "20",
-    img: fries1,
+    title: "Onion Rings",
+    description: "Lök ringar",
+    price: "25",
+    img: onionrings,
   },
 
   {
@@ -51,7 +56,7 @@ export const menuDataRight = [
     title: "Söt Potatis Fries",
     description: "Med Sötpotatis",
     price: "35",
-    img: fries1,
+    img: sweetpotato,
   },
 ];
 
