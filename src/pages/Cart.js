@@ -4,7 +4,10 @@ import {
   menuDataLeft as BurgareLeft,
   menuDataRight as BurgareRight,
 } from "./Meny/Burgare";
-import { menuDataRight as DipsRight } from "./Meny/Dips";
+import { 
+  menuDataRight as DipsRight,
+menuDataLeft as DipsLeft,
+ } from "./Meny/Dips";
 import {
   menuDataRight as SidesRight,
   menuDataLeft as SidesLeft,
@@ -45,6 +48,8 @@ function Cart() {
           if (!test) {
             test = BurgareRight.find((x) => x.id.toString() === id);
             if (!test) {
+              test = DipsLeft.find((x) => x.id.toString() === id);
+            if (!test) {
               test = DipsRight.find((x) => x.id.toString() === id);
               if (!test) {
                 test = SidesLeft.find((x) => x.id.toString() === id);
@@ -63,6 +68,7 @@ function Cart() {
               }
             }
           }
+        }
           console.log(test);
           return (
             <div>

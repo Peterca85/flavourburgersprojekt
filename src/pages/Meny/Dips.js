@@ -74,10 +74,12 @@ export const menuDataRight = [
 
 function Dips() {
   return (
-    <div className="container-dips">
+
+      <div className="container-dips">
       <h1 className="heading-secondary">Dippar</h1>
 
       <div className="grid-container">
+
         <div>
           {menuDataLeft.map((data, i) => (
             <ListItem
@@ -89,6 +91,7 @@ function Dips() {
             ></ListItem>
           ))}
         </div>
+
 
         <div>
           {menuDataRight.map((data, i) => (

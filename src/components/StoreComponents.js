@@ -4,7 +4,10 @@ import {
   menuDataLeft as BurgareLeft,
   menuDataRight as BurgareRight,
 } from "../pages/Meny/Burgare";
-import { menuDataRight as DipsRight } from "../pages/Meny/Dips";
+import { 
+  menuDataRight as DipsRight,
+  menuDataLeft as DipsLeft, 
+} from "../pages/Meny/Dips";
 import {
   menuDataRight as SidesRight,
   menuDataLeft as SidesLeft,
@@ -47,6 +50,9 @@ const StoreComponentProvider = (props) => {
       let item = BurgareLeft.find((x) => x.id.toString() === id);
       if (!item) {
         item = BurgareRight.find((x) => x.id.toString() === id);
+      }
+      if (!item) {
+        item = DipsLeft.find((x) => x.id.toString() === id);
       }
       if (!item) {
         item = DipsRight.find((x) => x.id.toString() === id);

@@ -12,7 +12,7 @@ function ListItem({ id, title, description, price, itemImage }) {
     <div className="list-items" key={id}>
       <ul className="un-list">
         <li className="list-list">
-          {itemImage && <img src={itemImage} alt="food" />}
+          {itemImage && <img src={itemImage} alt="mat" />}
 
           <div>
             <h3>{title} </h3>
