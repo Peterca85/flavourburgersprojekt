@@ -12,9 +12,10 @@ import { ArrowBackIos } from "@mui/icons-material";
 import { ArrowForwardIos } from "@mui/icons-material";
 
 const images = [
+  { title: "MrDj", img: MrDj },
   { title: "Dj", img: Dj },
   { title: "Artist", img: Artist },
-  { title: "MrDj", img: MrDj },
+
 ];
 
 function Happenings() {
