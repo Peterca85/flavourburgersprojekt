@@ -25,6 +25,20 @@ function Order() {
            </div>
            <input type="text" placeholder="Telefon"></input>
       </div>
+      <div className="place-order-middle">
+        <p className="title">Betalnings Information</p>
+        <div className="multi-fields">
+          <input type="text" placeholder="Kort nummer"></input>
+        
+        </div>
+       
+        <div className="multi-fields">
+          <input type="text" placeholder="MM/YY"></input>
+          <input type="text" placeholder="CVC"></input>
+           </div>
+          
+      </div>
+
       <div className="place-order-right">
       <div className="cart-total">
           <h2>Varukorg totalt</h2>
@@ -44,7 +58,7 @@ function Order() {
             <b>{getCartTotal()===0?0:getCartTotal()+20} kr</b>
             </div>
           </div>
-          <Button variant="contained">Gå till betalning</Button>
+          <Button variant="contained">Betala</Button>
          </div>
         </div>
       </form>

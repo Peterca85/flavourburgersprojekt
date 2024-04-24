@@ -1,7 +1,6 @@
 import React from "react";
 import "../../styles/Burgare.css";
 import ListItem from "../../components/ListItem";
-import burgerImage from "../../assets/burgermonth.jpg";
 import cheeseburger from "../../assets/cheeseburger.jpg";
 import taco from "../../assets/taco.jpg";
 import dubbel from "../../assets/dubbel.jpg";
