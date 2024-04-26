@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import { StoreComponent } from "../../components/StoreComponents";
 import { Button } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 import "../../styles/Order.css";
 
 function Order() {
+  const navigate = useNavigate(StoreComponent);
   const { getCartTotal } = useContext(StoreComponent);
 
   return (
@@ -55,7 +57,8 @@ function Order() {
               <b>{getCartTotal() === 0 ? 0 : getCartTotal() + 20} kr</b>
             </div>
           </div>
-          <Button variant="contained">Betala</Button>
+ 
+          <Button variant="contained" onClick={()=>navigate("/summary")}>Betala</Button>
         </div>
       </div>
     </form>

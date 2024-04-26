@@ -10,6 +10,7 @@ import kontakt from "./pages/Contact";
 import Meny from "./pages/Menu";
 import cart from "./pages/Cart";
 import order from "./pages/Order/Order";
+import sum from "./pages/Order/Summary";
 
 
 function App() {               
@@ -26,6 +27,7 @@ function App() {
               <Route path="/meny" exact Component={Meny} />
               <Route path="/cart" exact Component={cart} />
               <Route path="/order" exact Component={order} />
+              <Route path="/summary" exact Component={sum} />
             </Routes>
             <Footer />
           </Router>
