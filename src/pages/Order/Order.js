@@ -13,28 +13,48 @@ function Order() {
       <div className="place-order-left">
         <p className="title">Leverans Information</p>
         <div className="multi-fields">
-          <input type="text" placeholder="Förnamn"></input>
-          <input type="text" placeholder="Efternamn"></input>
+        <label> Förnamn:
+          <input type="text" placeholder="Ange Förnamn"></input>
+          </label>
+          <label>Efternamn:
+          <input type="text" placeholder="Ange Efternamn"></input>
+          </label>
         </div>
-        <input type="email" placeholder="E-post"></input>
+        <label>Email:
+        <input type="email" placeholder="Ange E-mail"></input>
+        </label>
         <div className="multi-fields">
-          <input type="text" placeholder="Adress"></input>
+          <label>Adress:
+          <input type="text" placeholder="Ange Adress"></input>
+          </label>
         </div>
         <div className="multi-fields">
-          <input type="text" placeholder="Postnummer"></input>
-          <input type="text" placeholder="Stad"></input>
+          <label>Postnummer:
+          <input type="text" placeholder="Ange Postnummer"></input>
+          </label>
+          <label>Stad:
+          <input type="text" placeholder="Ange Stad"></input>
+          </label>
         </div>
-        <input type="text" placeholder="Telefon"></input>
+        <label>Telefon:
+        <input type="text" placeholder="Ange Telefon"></input>
+        </label>
       </div>
       <div className="place-order-middle">
         <p className="title">Betalnings Information</p>
         <div className="multi-fields">
-          <input type="text" placeholder="Kort nummer"></input>
+          <label>Kortnummer:
+          <input type="text" placeholder="Ange Kortnummer"></input>
+          </label>
         </div>
 
         <div className="multi-fields">
-          <input type="text" placeholder="MM/YY"></input>
-          <input type="text" placeholder="CVC"></input>
+          <label>Utgångsdatum:
+          <input type="text" placeholder=" Ange MM/YY"></input>
+          </label>
+          <label>CVC:
+          <input type="text" placeholder="Ange CVC"></input>
+          </label>
         </div>
       </div>
 
