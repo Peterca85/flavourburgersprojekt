@@ -25,7 +25,12 @@ function Order() {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    setFormData((prevState) => ({ ...prevState, [name]: value }));
+    let newValue = value;
+    // Filtrera bort icke-siffror för specifika fält
+    if (name === "phone" || name === "zip" || name === "cardnumber" || name === "expired" || name === "cvc") {
+      newValue = value.replace(/\D/g, ''); // Tar bort icke-siffror
+    }
+    setFormData((prevState) => ({ ...prevState, [name]: newValue }));
   };
 
   const handleSubmit = (event) => {
@@ -39,9 +44,9 @@ function Order() {
     setFormErrors(errors);
     if (Object.keys(errors).length === 0) {
       console.log(formData);
+      // Fortsätt med att hantera formuläret om det inte finns några fel
     }
   };
-  
 
   return (
     <form onSubmit={handleSubmit} className="place-order">
