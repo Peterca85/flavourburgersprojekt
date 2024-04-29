@@ -44,7 +44,7 @@ function Home() {
           Så låt oss ta dig med på en smakresa till Mexiko med varje tugga av
           Jalapeño Fiesta Burger.
         </p>
-        <Link to="/bestallOnline">
+        <Link to="/meny">
           <button className="hamburgerButton">Beställ nu</button>
         </Link>
       </div>
