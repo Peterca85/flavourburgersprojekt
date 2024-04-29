@@ -196,9 +196,10 @@ function Order() {
             ></input>
             {formErrors.cvc && <span className="error">{formErrors.cvc}</span>}
           </label>
-          <input type="submit" value="Submit" />
-        </div>
+         </div>
+        <Button variant="contained" input type="submit" value="Submit" > Betala</Button>
       </div>
+      
 
       <div className="place-order-right">
         <div className="cart-total">
