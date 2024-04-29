@@ -21,6 +21,8 @@ function Order() {
     cvc:"",
   });
 
+  const [formErrors, setFormErrors] = useState({});
+
   const handleChange = (event) => {
     const { name, value } = event.target;
     setFormData((prevState) => ({ ...prevState, [name]: value }));
@@ -28,7 +30,16 @@ function Order() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log(formData);
+    const errors = {};
+    Object.keys(formData).forEach((key) => {
+      if (!formData[key]) {
+        errors[key] = "Fältet är obligatoriskt";
+      }
+    });
+    setFormErrors(errors);
+    if (Object.keys(errors).length === 0) {
+      console.log(formData);
+    }
   };
   
 
@@ -41,35 +52,42 @@ function Order() {
             {" "}
             Förnamn:
             <input type="text" placeholder="Ange Namn" name="name" value={formData.name} onChange={handleChange}></input>
+            {formErrors.name && <span className="error">{formErrors.name}</span>}
           </label>
           <label>
             Efternamn:
             <input type="text" placeholder="Ange Efternamn" name="lastname"  value={formData.lastname} onChange={handleChange}></input>
+            {formErrors.lastname && <span className="error">{formErrors.lastname}</span>}
           </label>
         </div>
         <label>
           Email:
           <input type="email" placeholder="email" name="email" value={formData.email} onChange={handleChange}></input>
+          {formErrors.email && <span className="error">{formErrors.email}</span>}
         </label>
         <div className="multi-fields">
           <label>
             Adress:
             <input type="text" placeholder="Ange Adress" name="address" value={formData.address} onChange={handleChange}></input>
+            {formErrors.address && <span className="error">{formErrors.address}</span>}
           </label>
         </div>
         <div className="multi-fields">
           <label>
             Postnummer:
             <input type="text" placeholder="Ange Postnummer" name="zip" value={formData.zip} onChange={handleChange}></input>
+            {formErrors.zip && <span className="error">{formErrors.zip}</span>}
           </label>
           <label>
             Stad:
             <input type="text" placeholder="Ange Stad" name="city" value={formData.city} onChange={handleChange}></input>
+            {formErrors.city && <span className="error">{formErrors.city}</span>}
           </label>
         </div>
         <label>
           Telefon:
           <input type="text" placeholder="Ange Telefon" name="phone" value={formData.phone} onChange={handleChange}></input>
+          {formErrors.phone && <span className="error">{formErrors.phone}</span>}
         </label>
       </div>
       <div className="place-order-middle">
@@ -78,6 +96,7 @@ function Order() {
           <label>
             Kortnummer:
             <input type="text" placeholder="Ange Kortnummer" name="cardnumber" value={formData.cardnumber} onChange={handleChange}></input>
+            {formErrors.cardnumber && <span className="error">{formErrors.cardnumber}</span>}
           </label>
         </div>
 
@@ -85,10 +104,12 @@ function Order() {
           <label>
             Utgångsdatum:
             <input type="text" placeholder="MM/YY" name="expired" value={formData.expired} onChange={handleChange}></input>
+            {formErrors.expired && <span className="error">{formErrors.expired}</span>}
           </label>
           <label>
             CVC:
             <input type="text" placeholder="CVC" name="cvc" value={formData.cvc} onChange={handleChange}></input>
+            {formErrors.cvc && <span className="error">{formErrors.cvc}</span>}
           </label>
           <input type="submit" value="Submit" />
         </div>
