@@ -46,11 +46,27 @@ function Order() {
         errors[key] = "Fältet är obligatoriskt";
       }
     });
-    setFormErrors(errors);
-    if (Object.keys(errors).length === 0) {
-      console.log(formData);
-    }
-  };
+
+  setFormErrors(errors);
+  if (Object.keys(errors).length === 0) {
+    const cartTotal = getCartTotal();
+
+    const tableData = [
+      {
+        name: formData.name,
+        lastname: formData.lastname,
+        email: formData.email,
+        address: formData.address,
+        zip: formData.zip,
+        city: formData.city,
+        phone: formData.phone,
+      }
+    ];
+
+    navigate("/summary", { state: { formData: formData, cartTotal: cartTotal, tableData: tableData } });
+  }
+};
+
 
   return (
     <form onSubmit={handleSubmit} className="place-order">
@@ -220,10 +236,6 @@ function Order() {
               <b>{getCartTotal() === 0 ? 0 : getCartTotal() + 20} kr</b>
             </div>
           </div>
-
-          <Button variant="contained" onClick={() => navigate("/summary")}>
-            Betala
-          </Button>
         </div>
       </div>
     </form>
