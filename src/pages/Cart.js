@@ -4,10 +4,10 @@ import {
   menuDataLeft as BurgareLeft,
   menuDataRight as BurgareRight,
 } from "./Meny/Burgare";
-import { 
+import {
   menuDataRight as DipsRight,
-menuDataLeft as DipsLeft,
- } from "./Meny/Dips";
+  menuDataLeft as DipsLeft,
+} from "./Meny/Dips";
 import {
   menuDataRight as SidesRight,
   menuDataLeft as SidesLeft,
@@ -23,10 +23,10 @@ import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 
 function Cart() {
-  const { cartItems,removeFromCart,getCartTotal } = useContext(StoreComponent);
+  const { cartItems, removeFromCart, getCartTotal } =
+    useContext(StoreComponent);
 
   const navigate = useNavigate(StoreComponent);
-
 
   return (
     <div className="cart">
@@ -49,18 +49,21 @@ function Cart() {
             test = BurgareRight.find((x) => x.id.toString() === id);
             if (!test) {
               test = DipsLeft.find((x) => x.id.toString() === id);
-            if (!test) {
-              test = DipsRight.find((x) => x.id.toString() === id);
               if (!test) {
-                test = SidesLeft.find((x) => x.id.toString() === id);
+                test = DipsRight.find((x) => x.id.toString() === id);
                 if (!test) {
-                  test = SidesRight.find((x) => x.id.toString() === id);
+                  test = SidesLeft.find((x) => x.id.toString() === id);
                   if (!test) {
-                    test = DrinksRight.find((x) => x.id.toString() === id);
+                    test = SidesRight.find((x) => x.id.toString() === id);
                     if (!test) {
-                      test = DrinksLeft.find((x) => x.id.toString() === id);
+                      test = DrinksRight.find((x) => x.id.toString() === id);
                       if (!test) {
-                        test = DrinksMiddle.find((x) => x.id.toString() === id);
+                        test = DrinksLeft.find((x) => x.id.toString() === id);
+                        if (!test) {
+                          test = DrinksMiddle.find(
+                            (x) => x.id.toString() === id
+                          );
+                        }
                       }
                     }
                   }
@@ -68,8 +71,7 @@ function Cart() {
               }
             }
           }
-        }
-          console.log(test);
+
           return (
             <div>
               <div className="cart-items-title cart-items-item">
@@ -97,21 +99,23 @@ function Cart() {
             <div className="cart-totals-details">
               <p>Summering</p>
               <p>{getCartTotal()} kr</p>
-               </div>
-               <hr></hr>
+            </div>
+            <hr></hr>
             <div className="cart-totals-details">
-              <p>Leverans avgift</p> 
-              <p>{getCartTotal()===0?0:20} kr</p>
-              </div>
-              <hr></hr>
-            <div className="cart-totals-details"> 
-            <b>Totalt </b>
-            <b>{getCartTotal()===0?0:getCartTotal()+20} kr</b>
+              <p>Leverans avgift</p>
+              <p>{getCartTotal() === 0 ? 0 : 20} kr</p>
+            </div>
+            <hr></hr>
+            <div className="cart-totals-details">
+              <b>Totalt </b>
+              <b>{getCartTotal() === 0 ? 0 : getCartTotal() + 20} kr</b>
             </div>
           </div>
-          <Button variant="contained" onClick={()=>navigate("/order")}>Gå till checkout</Button>
-         </div>
+          <Button variant="contained" onClick={() => navigate("/order")}>
+            Gå till checkout
+          </Button>
         </div>
+      </div>
     </div>
   );
 }
