@@ -8,36 +8,42 @@ import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import "../styles/Navbar.css";
 
 function Navbar() {
+  const [isNavOpen, setIsNavOpen] = useState(false);
   const navRef = useRef();
 
-  const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
+  const toggleNavbar = () => {
+    setIsNavOpen(!isNavOpen);
   };
-  
+
+  const closeNavbar = () => {
+    setIsNavOpen(false);
+  };
+
+
 
   return (
     <header>
-      <Link to="/">
-        <img src={Logo} width={100} alt="logotype" />
+    <Link to="/">
+      <img src={Logo} width={100} alt="logotype" />
+    </Link>
+    <nav ref={navRef} className={isNavOpen ? "responsive_nav" : ""}>
+      <Link to="/" onClick={closeNavbar}>Hem</Link>
+      <Link to="/meny" onClick={closeNavbar}>Meny</Link>
+      <Link to="/omOss" onClick={closeNavbar}>Om oss</Link>
+      <Link to="/happenings" onClick={closeNavbar}>Happenings</Link>
+      <Link to="/Kontakt" onClick={closeNavbar}>Kontakt</Link>
+      <Link to="/cart" onClick={closeNavbar}>
+        <ShoppingCartIcon fontSize="large"></ShoppingCartIcon>
       </Link>
-      <nav ref={navRef}>
-        <Link to="/"> Hem </Link>
-        <Link to="/meny"> Meny </Link>
-        <Link to="/omOss"> Om oss </Link>
-        <Link to="/happenings"> Happenings </Link>
-        <Link to="/Kontakt"> Kontakt </Link>
-        <Link to="/cart">
-          <ShoppingCartIcon fontSize="large"></ShoppingCartIcon>
-        </Link>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}>
-          <HighlightOffIcon fontSize="large" />
-        </button>
-      </nav>
-      <button className="nav-btn" onClick={showNavbar}>
-        <ReorderIcon fontSize="large" />
+      <button className="nav-btn nav-close-btn" onClick={toggleNavbar}>
+        <HighlightOffIcon fontSize="large" />
       </button>
-    </header>
-  );
+    </nav>
+    <button className="nav-btn" onClick={toggleNavbar}>
+      <ReorderIcon fontSize="large" />
+    </button>
+  </header>
+);
 }
 
 export default Navbar;

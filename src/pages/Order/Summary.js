@@ -3,6 +3,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from "@mui/material";
+import "../../styles/Summary.css";
 
 
 function Summary() {
@@ -12,15 +13,15 @@ function Summary() {
   const tableData = location.state.tableData;
 
   return (
-    <div className="table-container"> {/* Container för tabellen */}
+    <div className="table-container"> 
     <h1> Grattis till ditt köp</h1>
       <h1>Sammanfattning</h1>
    
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
-            <TableRow>
-              <TableCell>Namm</TableCell>
+            <TableRow >
+              <TableCell >Namn</TableCell>
               <TableCell>Efternamn</TableCell>
               <TableCell>Email</TableCell>
               <TableCell>Adress</TableCell>
@@ -44,6 +45,7 @@ function Summary() {
           </TableBody>
         </Table>
       </TableContainer>
+      <br></br>
       <h2>Varukorg totalt: {cartTotal} kr</h2>
     </div>
   );
