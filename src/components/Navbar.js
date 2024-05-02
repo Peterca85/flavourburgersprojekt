@@ -21,35 +21,38 @@ function Navbar() {
   };
 
   const showNavbar = () => {
-    navRef.current.classList.toggle("responsive_nav");
+    setIsNavOpen(!isNavOpen);
   };
-  
+
+
+
 
   return (
     <header>
-      <Link to="/">
-        <img src={Logo} width={100} alt="logotype" />
-      </Link>
-      <nav ref={navRef}>
-        <Link to="/"> Hem </Link>
-        <Link to="/meny"> Meny </Link>
-        <Link to="/omOss"> Om oss </Link>
-        <Link to="/happenings"> Happenings </Link>
-        <Link to="/Kontakt"> Kontakt </Link>
-        <Link to="/cart">
-        <Badge badgeContent={4} color="primary">
-          <ShoppingCartIcon fontSize="large"></ShoppingCartIcon>
+        <Link to="/">
+  <img src={Logo} width={100} alt="logotype" />
+</Link>
+      <nav ref={navRef} className={isNavOpen ? "responsive_nav" : ""}>
+        <Link to="/" onClick={closeNavbar}>Hem</Link>
+        <Link to="/meny" onClick={closeNavbar}>Meny</Link>
+        <Link to="/omOss" onClick={closeNavbar}>Om oss</Link>
+        <Link to="/happenings" onClick={closeNavbar}>Happenings</Link>
+        <Link to="/Kontakt" onClick={closeNavbar}>Kontakt</Link>
+        <Link to="/cart" onClick={closeNavbar}>
+          <Badge badgeContent={4} color="primary">
+            <ShoppingCartIcon fontSize="large" />
           </Badge>
         </Link>
         <button className="nav-btn nav-close-btn" onClick={toggleNavbar}>
           <HighlightOffIcon fontSize="large" />
         </button>
       </nav>
-     <button className="nav-btn" onClick={toggleNavbar}>
+      <button className="nav-btn" onClick={showNavbar}>
         <ReorderIcon fontSize="large" />
       </button>
     </header>
   );
 }
+
 
 export default Navbar;
