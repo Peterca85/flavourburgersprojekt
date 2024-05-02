@@ -30,8 +30,7 @@ function Home() {
 
       <div className="hamburgerMonth">
         <h1>Månadens Hamburgare</h1>
-        <div className="burgerInfo">
-        <img src={BurgerMonth} alt="Hamburgare" />
+       <img src={BurgerMonth} alt="Hamburgare" />
         <p>
           Månadens Hamburgare: Jalapeño Fiesta! En smakresa till Mexiko. Vid
           hjärtat av denna sensation hittar du en generöst kryddad burgare, vars
@@ -46,7 +45,7 @@ function Home() {
           Jalapeño Fiesta Burger.
         </p>
       </div>
-      </div>
+    
 
       <div className="map">
         <div className="home-info">
