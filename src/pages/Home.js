@@ -9,7 +9,7 @@ import "../styles/Home.css";
 function Home() {
   return (
     <div className="home">
-      <video src={videoBg} autoPlay loop muted />
+      <video className="video-bg" src={videoBg} autoPlay loop muted />
       <div className="content">
         <h1 className="startHeader"> Flavour Burgers </h1>
         <p className="startText">Bästa burgarna i stan !</p>
@@ -30,6 +30,7 @@ function Home() {
 
       <div className="hamburgerMonth">
         <h1>Månadens Hamburgare</h1>
+        <div className="burgerInfo">
         <img src={BurgerMonth} alt="Hamburgare" />
         <p>
           Månadens Hamburgare: Jalapeño Fiesta! En smakresa till Mexiko. Vid
@@ -44,9 +45,7 @@ function Home() {
           Så låt oss ta dig med på en smakresa till Mexiko med varje tugga av
           Jalapeño Fiesta Burger.
         </p>
-        <Link to="/meny">
-          <button className="hamburgerButton">Beställ nu</button>
-        </Link>
+      </div>
       </div>
 
       <div className="map">
