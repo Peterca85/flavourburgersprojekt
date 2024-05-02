@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 .contact{
     min-height: 100vh;
-    background-color: rgb(255, 248, 246);
+    background-color: rgb(249, 246, 238);
     padding: 50px;
     text-align: center;
 }
@@ -33,9 +33,14 @@ box-sizing: border-box;
 }
 
 .contact-form h3{
-    font-size: 30px;
+
     margin-bottom: 20px;
     color: rgb(107, 77, 73);
+}
+
+.contact-info h3{
+    color: rgb(107, 77, 73);
+ 
 }
 
 .form-group{

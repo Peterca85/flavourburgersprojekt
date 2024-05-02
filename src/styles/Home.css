@@ -52,14 +52,16 @@ video {
   font-size: 2.5rem;
 }
 
-.aboutUs .aboutParagraph {
+.container-aboutUs .aboutParagraph {
   font-size: 2.6rem;
   height: 30%;
+  display:flex;
 }
 
-.aboutUs {
+.container-aboutUs {
   background-color: rgb(249, 216, 209);
   padding: 16vh;
+  display:flex;
 }
 
 h3 {

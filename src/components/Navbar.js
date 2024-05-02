@@ -39,7 +39,7 @@ function Navbar() {
         <Link to="/happenings" onClick={closeNavbar}>Happenings</Link>
         <Link to="/Kontakt" onClick={closeNavbar}>Kontakt</Link>
         <Link to="/cart" onClick={closeNavbar}>
-          <Badge badgeContent={4} color="primary">
+          <Badge badgeContent={4} color="success">
             <ShoppingCartIcon fontSize="large" />
           </Badge>
         </Link>

@@ -38,9 +38,9 @@ function Contact() {
           <div className="contact-info">
             <h3>Kontakt information</h3>
             <Phone fontSize="large" />
-            <p>0920 222222</p>
+            <p>0920-222222</p>
             <Mail fontSize="large" />
-            <p>Flavourburgers@gmail.com</p>
+            <p>contact@flavourburgers.com</p>
             <Home fontSize="large" />
             <p>Storgatan 12 Luleå</p>
           </div>

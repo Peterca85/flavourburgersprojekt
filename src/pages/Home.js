@@ -19,7 +19,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className="aboutUs">
+      <div className="container-aboutUs">
         <p className="aboutParagraph">
           Våra burgare är inte bara mat, de är konstverk skapade med kärlek och
           omsorg. Varje ingrediens är noggrant utvald för att säkerställa att
