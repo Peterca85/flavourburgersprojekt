@@ -84,3 +84,28 @@
     padding-bottom: 20px;
    
 }
+
+
+@media screen and (max-width: 768px) {
+    .happenings h1 {
+      font-size: 40px;
+      padding: 40px;
+    }
+  
+    .happenings p {
+      font-size: 20px;
+      line-height: 30px;
+      width: 90%;
+      padding: 10px;
+    }
+  
+    .carousel {
+      height: 500px;
+    }
+  
+    .artist img {
+      width: 200px;
+      height: 300px;
+      padding: 20px;
+    }
+  }

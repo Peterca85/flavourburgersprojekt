@@ -1,58 +1,45 @@
-.list-items{
-    margin: auto;
+.list-items {
     max-width: 800px;
 }
 
-.list-items .un-list{
+.list-items .un-list {
     width: 100%;
-
 }
 
-
-.list-items .un-list .list-list{
+.list-items .un-list .list-list {
     display: flex;
-    padding: 10 px 5px;
-    border-bottom: 1 px dashed blue;
-
-}
-
-
-.list-items ul li h3{
-    margin-left: auto;
+    padding: 10px 5px;
    
 }
 
-h3, h4{
-    color:#8d7612 ;
+.list-items ul li h3 {
+    margin-left: auto;
+}
+
+h3, h4 {
+    color: #8d7612;
     padding: 4px;
 }
 
-.list-items img{
-width: 150px;
-height: 150px;
-border-radius: 20%;
-margin-right: 20px;
-margin-bottom: 30px;
+.list-items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 
-.list-items .add {
-    height: 30px;
-    width: 30px;
- 
-}
-
-.list-items .remove{
+.list-items .add,
+.list-items .remove {
     height: 30px;
     width: 30px;
 }
 
-.food-item-counter{
-    position: absolute;
+.food-item-counter {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap: 10px;
     cursor: pointer;
     border-radius: 40px;
     background-color: #F0FFFF;
 }
-
