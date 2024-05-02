@@ -4,9 +4,9 @@ import {
   menuDataLeft as BurgareLeft,
   menuDataRight as BurgareRight,
 } from "../pages/Meny/Burgare";
-import { 
+import {
   menuDataRight as DipsRight,
-  menuDataLeft as DipsLeft, 
+  menuDataLeft as DipsLeft,
 } from "../pages/Meny/Dips";
 import {
   menuDataRight as SidesRight,
@@ -35,12 +35,16 @@ const StoreComponentProvider = (props) => {
     setCartItems((prev) => {
       const updatedCart = { ...prev };
       if (updatedCart[itemId] === 1) {
-        delete updatedCart[itemId]; 
+        delete updatedCart[itemId];
       } else if (updatedCart[itemId] > 1) {
-        updatedCart[itemId] -= 1; 
+        updatedCart[itemId] -= 1;
       }
       return updatedCart;
     });
+  };
+
+  const sumItemsCart = () => {
+    return Object.values(cartItems).reduce((a, b) => a + b, 0);
   };
 
   const getCartTotal = () => {
@@ -83,6 +87,7 @@ const StoreComponentProvider = (props) => {
 
   const contextValue = {
     ListItem,
+    sumItemsCart,
     cartItems,
     setCartItems,
     addToCart,
