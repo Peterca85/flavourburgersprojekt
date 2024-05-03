@@ -71,31 +71,38 @@ h3 {
 }
 
 .hamburgerMonth {
-  background-color: #121619;
-  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 100%;
-  img {
-    width: 30%;
-    height: auto;
-    margin: 0;
-    padding: 2em;
+  margin: auto;
+  background: black;
+  padding: 0px 25px;
+  font-size: 1.125rem;
+  min-height: 375px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
   }
+
+  .hamburgerContent {
+    flex: 1; /* Ta upp all tillgänglig plats för texterna */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Lägg till vänstermarginal */
+  }
+
+    .hamburgerMonth h1,
+    .hamburgerMonth p {
+      color: white;
+      padding: 20px;
+    }
+
+.hamburgerMonth img {
+ height: 40%;
+  width: 40%;
+  align-self: center; /* Centrera bilden vertikalt */
 }
-
-.hamburgerMonth p {
-  color:white;
-  text-align: center;
-  font-size: 1.3rem;
- 
-}
-
-.hamburgerMonth h1, h2{
-  text-align: center;
-padding: 1em;
-  color: white;
-}
-
-
 
 .hamburgerButton {
   background-color: #04aa6d;
@@ -208,10 +215,14 @@ padding: 1em;
 
 @media screen and (max-width: 768px) {
 
-  .hamburgerMonth img {
-    width: 50%;
-    height: 50%; 
-   
+  .hamburgerMonth {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .hamburgerContent {
+    margin-left: 0; 
+    text-align: center; 
   }
 
   .aboutParagraph {
