@@ -82,7 +82,12 @@ h3 {
   }
 }
 
-
+.hamburgerMonth p {
+  color:white;
+  text-align: center;
+  font-size: 1.3rem;
+ 
+}
 
 .hamburgerMonth h1, h2{
   text-align: center;
