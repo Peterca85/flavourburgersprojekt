@@ -29,20 +29,8 @@ function Home() {
 
       <div className="hamburgerMonth">
         <h1>Månadens Hamburgare</h1>
+        <h3>Jalapeño fiesta</h3>
        <img src={BurgerMonth} alt="Hamburgare" />
-        <p>
-          Månadens Hamburgare: Jalapeño Fiesta! En smakresa till Mexiko. Vid
-          hjärtat av denna sensation hittar du en generöst kryddad burgare, vars
-          smak är förhöjd av hettan från jalapeños och den karakteristiskad
-          smaken av chipotle. Toppad med en krämig och kryddig majonnäs, vars
-          ingredienser kompletterar perfekt med den rika köttsmaken. En krispig
-          sallad och mogen avokado lägger till en fräsch och balanserad
-          dimension till varje tugga, vilket skapar smaker som är helt
-          oemotståndlig. Denna hamburgare är en hyllning till Mexikos rika
-          kulinariska arv och en fest för dem som älskar hetta och smakrikedom.
-          Så låt oss ta dig med på en smakresa till Mexiko med varje tugga av
-          Jalapeño Fiesta Burger.
-        </p>
       </div>
     
 

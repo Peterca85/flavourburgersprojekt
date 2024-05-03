@@ -82,21 +82,15 @@ h3 {
   }
 }
 
-.hamburgerMonth p {
-  font-size: 1.5rem;
-  margin-left: 65vh;
+
+
+.hamburgerMonth h1, h2{
+  text-align: center;
+padding: 1em;
   color: white;
-  position: relative;
-  top: -400px;
-  line-height: 2.2rem;
 }
 
-.hamburgerMonth h1 {
-  text-align: center;
-  font-size: 2.6rem;
-  padding: 1em;
-  color: white;
-}
+
 
 .hamburgerButton {
   background-color: #04aa6d;
@@ -209,9 +203,15 @@ h3 {
 
 @media screen and (max-width: 768px) {
 
+  .hamburgerMonth img {
+    width: 50%;
+    height: 50%; 
+   
+  }
+
   .aboutParagraph {
-    font-size: 1.2rem; 
-    max-width: 0%; 
+    font-size: 1.5rem; 
+    max-width: 100%; 
   }
 
   .content {
