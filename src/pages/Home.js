@@ -23,8 +23,7 @@ function Home() {
         <p className="aboutParagraph">
           Våra burgare är inte bara mat, de är konstverk skapade med kärlek och
           omsorg. Varje ingrediens är noggrant utvald för att säkerställa att
-          varje hamburgare inte bara smakar fantastiskt, utan också berikar dina
-          smaklökar med en explosion av spännande smaker.
+          varje hamburgare smakar fantastiskt.
         </p>
       </div>
 

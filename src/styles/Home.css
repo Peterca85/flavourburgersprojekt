@@ -210,8 +210,8 @@ h3 {
 @media screen and (max-width: 768px) {
 
   .aboutParagraph {
-    font-size: 2rem; 
-    max-width: 80%; 
+    font-size: 1.2rem; 
+    max-width: 0%; 
   }
 
   .content {

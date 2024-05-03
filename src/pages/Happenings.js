@@ -65,19 +65,13 @@ function Happenings() {
         </p>
 
         <p>
-          Från livliga DJ-set som får dansgolvet att svänga till intima
+          Från DJ-set som får dig i rätt stämning till intima
           liveframträdanden där sångare och musiker bjuder på personliga
           tolkningar av sina låtar, strävar vi efter att erbjuda en varierad och
           engagerande underhållning för alla smaker.
         </p>
 
-        <p>
-          Vi lägger stor vikt vid att välja ut artister och DJs som inte bara är
-          skickliga och professionella utan också har förmågan att skapa en
-          stark koppling med vår publik. Det handlar inte bara om att uppträda
-          utan om att skapa en upplevelse som berör och engagerar.
-        </p>
-
+    
         <p>
           Våra gäster kan förvänta sig att varje besök på vår restaurang blir en
           resa genom olika musikaliska världar, där de får möjlighet att
