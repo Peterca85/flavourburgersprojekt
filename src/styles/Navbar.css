@@ -6,6 +6,9 @@ header {
   padding: 0 2rem;
   background-color: black;
   z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
