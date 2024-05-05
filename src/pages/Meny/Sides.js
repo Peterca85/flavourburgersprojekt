@@ -1,12 +1,12 @@
 import React from "react";
 import ListItem from "../../components/ListItem";
-import "../../styles/Sides.css";
 import cheddar from "../../assets/Fries.jpg";
 import orginalfries from "../../assets/orginalfries.jpg";
 import onionrings from "../../assets/onionrings.jpg";
 import sweetpotato from "../../assets/sweetpotato.jpg";
 import animalfries from "../../assets/animalfries.jpg";
 import chili from "../../assets/chili.jpg";
+import "../../styles/Sides.css";
 
 export const menuDataLeft = [
   {

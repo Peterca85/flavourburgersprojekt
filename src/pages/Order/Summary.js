@@ -2,26 +2,32 @@
 
 import React from "react";
 import { useLocation } from "react-router-dom";
-import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody, Paper } from "@mui/material";
+import {
+  TableContainer,
+  Table,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableBody,
+  Paper,
+} from "@mui/material";
 import "../../styles/Summary.css";
-
 
 function Summary() {
   const location = useLocation();
-  const formData = location.state.formData;
   const cartTotal = location.state.cartTotal;
   const tableData = location.state.tableData;
 
   return (
-    <div className="table-container"> 
-    <h1> Grattis till ditt köp</h1>
+    <div className="table-container">
+      <h1> Grattis till ditt köp</h1>
       <h1>Sammanfattning</h1>
-   
+
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
-            <TableRow >
-              <TableCell >Namn</TableCell>
+            <TableRow>
+              <TableCell>Namn</TableCell>
               <TableCell>Efternamn</TableCell>
               <TableCell>Email</TableCell>
               <TableCell>Adress</TableCell>
@@ -52,4 +58,3 @@ function Summary() {
 }
 
 export default Summary;
-
