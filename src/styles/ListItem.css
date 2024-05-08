@@ -45,7 +45,7 @@ h3, h4 {
 }
 
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     .list-items .un-list .list-list {
         flex-direction: column; 
     }
