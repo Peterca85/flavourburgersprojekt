@@ -33,7 +33,7 @@ function Navbar() {
       <Link to="/">
         <img src={Logo} width={100} alt="logotype" />
       </Link>
-      <nav ref={navRef} className={isNavOpen ? "responsive_nav" : ""}>
+    <nav ref={navRef} className={isNavOpen ? "responsive_nav" : ""}>
         <Link to="/" onClick={closeNavbar}>
           Hem
         </Link>
@@ -49,15 +49,17 @@ function Navbar() {
         <Link to="/Kontakt" onClick={closeNavbar}>
           Kontakt
         </Link>
-        <Link to="/cart" onClick={closeNavbar}>
-          <Badge badgeContent={sumItemsCart()} color="success">
-            <ShoppingCartIcon fontSize="large" />
-          </Badge>
-        </Link>
-        <button className="nav-btn nav-close-btn" onClick={toggleNavbar}>
+   <button className="nav-btn nav-close-btn" onClick={toggleNavbar}>
           <HighlightOffIcon fontSize="large" />
         </button>
       </nav>
+      <div className="cart-top">
+      <Link to="/cart" onClick={closeNavbar}>
+          <Badge badgeContent={sumItemsCart()} color="success">
+            <ShoppingCartIcon fontSize="large" color="warning" />
+          </Badge>
+        </Link>
+        </div>
       <button className="nav-btn" onClick={showNavbar}>
         <ReorderIcon fontSize="large" />
       </button>

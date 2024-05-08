@@ -40,6 +40,10 @@ nav {
   align-items: center;
 }
 
+.cart-top{
+  align-items: left;
+  }
+
 @media only screen and (max-width: 1024px) {
   header .nav-btn {
     visibility: visible;
