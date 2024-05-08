@@ -56,7 +56,7 @@ function Navbar() {
       <div className="cart-top">
       <Link to="/cart" onClick={closeNavbar}>
           <Badge badgeContent={sumItemsCart()} color="success">
-            <ShoppingCartIcon fontSize="large" color="warning" />
+            <ShoppingCartIcon  style={{ color: '#fff' }} fontSize="large"/>
           </Badge>
         </Link>
         </div>
