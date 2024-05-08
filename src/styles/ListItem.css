@@ -43,3 +43,20 @@ h3, h4 {
     border-radius: 40px;
     background-color: #F0FFFF;
 }
+
+
+@media screen and (max-width: 600px) {
+    .list-items .un-list .list-list {
+        flex-direction: column; 
+    }
+
+    .list-items ul li h3 {
+        margin-left: 0; 
+    }
+
+    .list-items img {
+        width: 100%; 
+        height: auto; 
+        margin: 0; 
+    }
+}

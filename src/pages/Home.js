@@ -30,12 +30,11 @@ function Home() {
       <div className="hamburgerMonth">
       <div className="hamburgerContent">
         <h1>Månadens Hamburgare: Jalapeño fiesta</h1>
-        <p>Jalapeño Fiesta hamburgaren är en smakfull och het variant av den klassiska hamburgaren, 
-          fylld med spännande mexikanska smaker. Den börjar med saftigt hamburgarkött, antingen av nötkött 
-          eller en blandning av nötkött och fläskkött. Huvudingrediensen, jalapeños, tillför en distinkt 
-          hetta som balanseras av krämig cheddar eller monterey jack ost. För att lägga till en fräsch och 
-          krämig touch inkluderas skivad avokado eller guacamole. En kryddig salsa, baserad på tomater eller 
-          andra grönsaker och kryddor, kompletterar smakprofilen och ger en autentisk mexikansk smakupplevelse.
+        <p>Jalapeño Fiesta hamburgaren är en smakfull och het burgare inspirerad av det mexikanska köket.
+           Den innehåller 120 gram svensktg nötkött . Huvudingrediensen, jalapeños, tillför en distinkt 
+          hetta som balanseras av krämig cheddar och monterey jack ost. För att lägga till en fräsch och 
+          krämig touch inkluderas skivad avokado och krämig guacamole. En kryddig salsa, baserad på tomater 
+           och kryddor, kompletterar smakprofilen och ger en äkta mexikansk smakupplevelse.
         </p>
         </div>
        <img src={BurgerMonth} alt="Hamburgare" />

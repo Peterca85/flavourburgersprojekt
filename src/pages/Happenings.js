@@ -54,7 +54,7 @@ function Happenings() {
         <p>
           Under helgerna blir ett besök på vår restaurang en unik upplevelse
           fylld med spännande happenings, där en mångfald av artister och DJs
-          uppträder för att skapa en atmosfär som lämnar våra gäster
+          uppträder för att skapa en atmosfär som lämnar våra gäster med
           oförglömliga minnen.{" "}
         </p>
 

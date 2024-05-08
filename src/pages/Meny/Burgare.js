@@ -11,8 +11,8 @@ import veggie from "../../assets/veggie.jpg";
 export const menuDataLeft = [
   {
     id: 1,
-    title: "Burgare",
-    description: "Med Bacon",
+    title: " Bacon Burgare",
+    description: " Bacon,ost,Gul lök",
     price: "100",
     img: burger,
   },
@@ -20,7 +20,7 @@ export const menuDataLeft = [
   {
     id: 2,
     title: "Cheeseburgare",
-    description: "Med Ost",
+    description: "Cheddarost,Gul lök,Sallad,Orginaldressing",
     price: "109",
     img: cheeseburger,
   },
@@ -28,7 +28,7 @@ export const menuDataLeft = [
   {
     id: 3,
     title: "Veggieburgare",
-    description: "Vegetarisk",
+    description: "Växtbaeradburgare,Cheddar,Sallad,Tomater",
     price: "109",
     img: veggie,
   },
@@ -38,7 +38,7 @@ export const menuDataRight = [
   {
     id: 4,
     title: "Tacofiesta",
-    description: "Tex Mex",
+    description: "Guacamole,Rödlök,Sallad,Salsa",
     price: "129",
     img: taco,
   },
@@ -46,7 +46,7 @@ export const menuDataRight = [
   {
     id: 5,
     title: "Dubbelcheese",
-    description: "Dubbel Ost",
+    description: "2 X 60 g nötkott,Cheddarost,Rödlök,BBQ-dressing",
     price: "125",
     img: dubbel,
   },
@@ -54,7 +54,7 @@ export const menuDataRight = [
   {
     id: 6,
     title: "Jalapeño fiesta",
-    description: "kryddig",
+    description: "jalapeños,Cheddar,Monterey jack ost, Avokdadom Guacamole,Salsa",
     price: "129",
     img: jalapeno,
   },
