@@ -86,10 +86,18 @@ h3 {
   margin-right: 20px; /* Lägg till vänstermarginal */
 }
 
-.hamburgerMonth h1,
+.hamburgerMonth h1{
+  color: white;
+  padding: 30px;
+
+ 
+}
+
 .hamburgerMonth p {
   color: white;
   padding: 20px;
+  font-size: 25px;
+  padding-top: 45px;
 }
 
 .hamburgerMonth img {
