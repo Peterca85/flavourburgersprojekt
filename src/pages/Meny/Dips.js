@@ -8,7 +8,6 @@ export const menuDataLeft = [
   {
     id: 13,
     title: "Bearnaise",
-    description: "Bea smak",
     price: "15",
     img: dipsauce,
   },
@@ -16,15 +15,12 @@ export const menuDataLeft = [
   {
     id: 14,
     title: "Blue-chese",
-    description: "Den vanliga goda",
-    price: "15",
     img: dipsauce,
   },
 
   {
     id: 15,
-    title: "Smältost",
-    description: "Cheddar",
+    title: "Cheddar",
     price: "15",
     img: dipsauce,
   },
@@ -32,7 +28,6 @@ export const menuDataLeft = [
   {
     id: 16,
     title: "Orginal Dip",
-    description: "Klassikern",
     price: "15",
     img: dipsauce,
   },
@@ -42,7 +37,6 @@ export const menuDataRight = [
   {
     id: 17,
     title: "Salsa Dip",
-    description: "Med sting ",
     price: "15",
     img: reddip,
   },
@@ -50,7 +44,6 @@ export const menuDataRight = [
   {
     id: 18,
     title: "Vitlök",
-    description: "Yummy",
     price: "15",
     img: dipsauce,
   },
@@ -58,7 +51,6 @@ export const menuDataRight = [
   {
     id: 19,
     title: "Barbecue",
-    description: "BBQ",
     price: "15",
     img: reddip,
   },
@@ -66,7 +58,6 @@ export const menuDataRight = [
   {
     id: 20,
     title: "Tryffel Majo",
-    description: "Smarrig",
     price: "15",
     img: dipsauce,
   },

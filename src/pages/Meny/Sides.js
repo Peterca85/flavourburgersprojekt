@@ -46,7 +46,7 @@ export const menuDataRight = [
   {
     id: 11,
     title: "Onion Rings",
-    description: "Lök ringar",
+    description: "Lökringar",
     price: "25",
     img: onionrings,
   },

@@ -83,7 +83,7 @@ export const menuDataRight = [
   {
     id: 29,
     title: "Carlsberg",
-    description: "50 Cl",
+    description: "33 Cl",
     price: "75",
     img: carlsberg,
   },

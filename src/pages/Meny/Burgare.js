@@ -12,7 +12,7 @@ export const menuDataLeft = [
   {
     id: 1,
     title: " Bacon Burgare",
-    description: " Bacon,ost,Gul lök",
+    description: " Bacon,Cheddar,Gul lök",
     price: "100",
     img: burger,
   },
@@ -20,7 +20,7 @@ export const menuDataLeft = [
   {
     id: 2,
     title: "Cheeseburgare",
-    description: "Cheddarost,Gul lök,Sallad,Orginaldressing",
+    description: "Cheddar,Gul lök,Sallad,Orginaldressing",
     price: "109",
     img: cheeseburger,
   },
@@ -28,7 +28,7 @@ export const menuDataLeft = [
   {
     id: 3,
     title: "Veggieburgare",
-    description: "Växtbaeradburgare,Cheddar,Sallad,Tomater",
+    description: "Växtbaseradburgare,Cheddar,Sallad,Tomater",
     price: "109",
     img: veggie,
   },
@@ -46,7 +46,7 @@ export const menuDataRight = [
   {
     id: 5,
     title: "Dubbelcheese",
-    description: "2 X 60 g nötkott,Cheddarost,Rödlök,BBQ-dressing",
+    description: "2 X 60 g nötkott,Cheddar,Rödlök,BBQ-dressing",
     price: "125",
     img: dubbel,
   },
@@ -54,7 +54,7 @@ export const menuDataRight = [
   {
     id: 6,
     title: "Jalapeño fiesta",
-    description: "jalapeños,Cheddar,Monterey jack ost, Avokdadom Guacamole,Salsa",
+    description: "jalapeños,Cheddar,Monterey jack ost, Avokado, Guacamole,Salsa",
     price: "129",
     img: jalapeno,
   },
