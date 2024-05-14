@@ -52,7 +52,7 @@ function Summary() {
         </Table>
       </TableContainer>
       <br></br>
-      <h2>Varukorg totalt: {cartTotal} kr</h2>
+      <h2>Betalt: {cartTotal} kr</h2>
     </div>
   );
 }

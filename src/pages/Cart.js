@@ -20,6 +20,7 @@ import {
 import "../styles/Cart.css";
 import ClearIcon from "@mui/icons-material/Clear";
 import { Button } from "@mui/material";
+import Tooltip from '@mui/material/Tooltip';
 import { useNavigate } from "react-router-dom";
 
 function Cart() {
@@ -80,12 +81,14 @@ function Cart() {
                 <h5>{test.price} kr</h5>
                 <h5>{cartItems[test.id]}</h5>
                 <h5>{test.price * cartItems[test.id]} kr</h5>
+                <Tooltip title="Ta bort Produkt">
                 <ClearIcon
                   onClick={() => removeFromCart(test.id)}
                   sx={{ cursor: "pointer" }}
                 >
                   {" "}
                 </ClearIcon>
+                </Tooltip>
               </div>
               <hr></hr>
             </div>

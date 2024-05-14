@@ -33,16 +33,28 @@ h3, h4 {
 .list-items .remove {
     height: 30px;
     width: 30px;
+    cursor: pointer;
+ 
+    
 }
 
 .food-item-counter {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     cursor: pointer;
     border-radius: 40px;
-    background-color: #F0FFFF;
+   
 }
+
+.tooltip {
+   
+    visibility: hidden;  
+  }
+  
+  .tooltip-on-hover:hover + .tooltip {    
+    visibility: visible;  
+  }
 
 
 @media screen and (max-width: 768px) {
