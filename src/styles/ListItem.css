@@ -47,15 +47,6 @@ h3, h4 {
    
 }
 
-.tooltip {
-   
-    visibility: hidden;  
-  }
-  
-  .tooltip-on-hover:hover + .tooltip {    
-    visibility: visible;  
-  }
-
 
 @media screen and (max-width: 768px) {
     .list-items .un-list .list-list {
