@@ -76,7 +76,7 @@ function Cart() {
           return (
             <div>
               <div className="cart-items-title cart-items-item">
-                <img src={test.img} width={300}></img>
+                <img src={test.img} alt="Bild på Produkt" width={300}></img>
                 <h5>{test.title}</h5>
                 <h5>{test.price} kr</h5>
                 <h5>{cartItems[test.id]}</h5>

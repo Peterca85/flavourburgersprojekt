@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import "../styles/Happenings.css";
 import Dj from "../assets/dj.jpg";
 import Artist from "../assets/sheartist.jpg";

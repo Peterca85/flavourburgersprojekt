@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import ListItem from "./ListItem";
 import {
   menuDataLeft as BurgareLeft,

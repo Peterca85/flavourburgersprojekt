@@ -7,7 +7,6 @@ import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { StoreComponent } from "./StoreComponents";
 import Badge from "@mui/material/Badge";
-import Tooltip from "@mui/material/Tooltip";
 import "../styles/Navbar.css";
 
 function Navbar() {
