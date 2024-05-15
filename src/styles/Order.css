@@ -1,8 +1,8 @@
 .place-order {
-    display:flex;
-    align-items: start;
-    gap: 10%;
-    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin-top: 30px;
 
 }
 

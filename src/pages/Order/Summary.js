@@ -20,8 +20,8 @@ function Summary() {
 
   return (
     <div className="table-container">
-      <h1> Grattis till ditt köp</h1>
-      <h1>Sammanfattning</h1>
+      <h1> Grattis till ditt köp !</h1>
+      <h2>Sammanfattning:</h2>
 
       <TableContainer component={Paper}>
         <Table>
