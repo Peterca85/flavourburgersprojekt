@@ -20,6 +20,7 @@ import {
 import "../styles/Cart.css";
 import ClearIcon from "@mui/icons-material/Clear";
 import { Button } from "@mui/material";
+import { Typography } from "@mui/material";
 import Tooltip from '@mui/material/Tooltip';
 import { useNavigate } from "react-router-dom";
 
@@ -81,7 +82,7 @@ function Cart() {
                 <h5>{test.price} kr</h5>
                 <h5>{cartItems[test.id]}</h5>
                 <h5>{test.price * cartItems[test.id]} kr</h5>
-                <Tooltip title="Ta bort Produkt">
+                <Tooltip title= {<Typography fontSize={15}> Ta bort Produkt </Typography>}arrow>
                 <ClearIcon
                   onClick={() => removeFromCart(test.id)}
                   sx={{ cursor: "pointer" }}
@@ -114,9 +115,11 @@ function Cart() {
               <b>{getCartTotal() === 0 ? 0 : getCartTotal() + 20} kr</b>
             </div>
           </div>
+          <Tooltip title= {<Typography fontSize={15}> Gå vidare till Checkout </Typography>}arrow>
           <Button variant="contained" onClick={() => navigate("/order")}>
             Gå till checkout
           </Button>
+          </Tooltip>
         </div>
       </div>
     </div>

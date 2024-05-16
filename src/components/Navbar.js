@@ -7,6 +7,8 @@ import HighlightOffIcon from "@mui/icons-material/HighlightOff";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import { StoreComponent } from "./StoreComponents";
 import Badge from "@mui/material/Badge";
+import Tooltip from '@mui/material/Tooltip';
+import { Typography } from "@mui/material";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -53,11 +55,13 @@ function Navbar() {
         </button>
       </nav>
       <div className="cart-top">
+      <Tooltip title= {<Typography fontSize={15}> Gå till Kundvagnen </Typography>}arrow>
       <Link to="/cart" onClick={closeNavbar}>
           <Badge badgeContent={sumItemsCart()} color="success">
             <ShoppingCartIcon  style={{ color: '#fff' }} fontSize="large"/>
           </Badge>
         </Link>
+        </Tooltip>
         </div>
       <button className="nav-btn" onClick={showNavbar}>
         <ReorderIcon fontSize="large" />

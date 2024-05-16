@@ -2,6 +2,8 @@ import React, { useContext, useState } from "react";
 import { StoreComponent } from "../../components/StoreComponents";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
+import { Tooltip } from "@mui/material";
+import { Typography } from "@mui/material";
 import "../../styles/Order.css";
 
 function Order() {
@@ -213,7 +215,9 @@ function Order() {
             {formErrors.cvc && <span className="error">{formErrors.cvc}</span>}
           </label>
          </div>
+         <Tooltip title= {<Typography fontSize={15}> Betala ditt köp </Typography>}arrow>
         <Button variant="contained" input type="submit" value="Submit" > Betala</Button>
+        </Tooltip>
       </div>
       
 

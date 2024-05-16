@@ -5,6 +5,7 @@ import minusIcon from "../assets/redminusicon.png";
 import greenPlusIcon from "../assets/greenaddicon.png";
 import { StoreComponent } from "./StoreComponents";
 import Tooltip from '@mui/material/Tooltip';
+import { Typography } from "@mui/material";
 
 function ListItem({ id, title, description, price, itemImage }) {
   const { cartItems, addToCart, removeFromCart } = useContext(StoreComponent);
@@ -20,7 +21,7 @@ function ListItem({ id, title, description, price, itemImage }) {
             {description && <h4>{description} </h4>}
 
             {!cartItems[id] ? (
-                <Tooltip title="Klicka för att beställa" arrow>
+               <Tooltip title= {<Typography fontSize={15}> Klicka för att beställa</Typography>}arrow>
               <img
                 className="add"
                 onClick={() => addToCart(id)}
@@ -30,7 +31,7 @@ function ListItem({ id, title, description, price, itemImage }) {
               </Tooltip>
             ) : (
               <div className="food-item-counter">
-                 <Tooltip title="Ta bort Produkt" arrow>
+                     <Tooltip title= {<Typography fontSize={15}> Ta bort Produkt</Typography>}arrow>
                 <img
                   className="remove"
                   onClick={() => removeFromCart(id)}
@@ -39,7 +40,7 @@ function ListItem({ id, title, description, price, itemImage }) {
                 ></img>
                 </Tooltip>
                 <p>{cartItems[id]}</p>
-                <Tooltip title="Lägg till en Produkt" arrow>
+                <Tooltip title= {<Typography fontSize={15}> Lägg till Produkt</Typography>}arrow>
                 <img
                   className="remove"
                   onClick={() => addToCart(id)}
